@@ -2012,7 +2012,7 @@
           "_postman_id": "66962775-0e7f-ff6d-92d2-c88195d20365",
           "name": "Sim-ReverseAuth",
           "request": {
-            "url": "{{url}}:{{simport}}/simulator-fraud",
+            "url": "{{url}}:{{simport}}/simulator-cssim",
             "method": "POST",
             "header": [
               {
@@ -2023,7 +2023,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "<soapenv:Body>\r\n<requestMessage xmlns=\"urn:schemas-cybersource-com:transaction-data-1.93\">\r\n <merchantID>e4x_test_usd</merchantID>\r\n <merchantReferenceCode>e4x200wsdsasassdsdsdsddsdsdsdasasdsdfd</merchantReferenceCode>\r\n <clientLibrary>Java Axis WSS4J</clientLibrary>\r\n <clientLibraryVersion>1.4/1.5.1</clientLibraryVersion>\r\n <clientEnvironment>Windows 7/6.1/Oracle Corporation/1.7.0_60</clientEnvironment>\r\n <purchaseTotals>\r\n  <currency>USD</currency>\r\n  <grandTotalAmount>69.00</grandTotalAmount>\r\n </purchaseTotals>\r\n <ccAuthReversalService run=\"true\">\r\n  <authRequestID>ssdsdsd</authRequestID>\r\n  <authRequestToken>4721a242-01f3-47fa-a4f2-18101ede79a2</authRequestToken>\r\n </ccAuthReversalService>\r\n</requestMessage>\r\n</soapenv:Body>"
+              "raw": "<soapenv:Body>\r\n<requestMessage xmlns=\"urn:schemas-cybersource-com:transaction-data-1.93\">\r\n <merchantID>e4x_test_usd</merchantID>\r\n <merchantReferenceCode>e4x200wsdsasassdsdddddsdsddsdsdsdasasdsdfd</merchantReferenceCode>\r\n <clientLibrary>Java Axis WSS4J</clientLibrary>\r\n <clientLibraryVersion>1.4/1.5.1</clientLibraryVersion>\r\n <clientEnvironment>Windows 7/6.1/Oracle Corporation/1.7.0_60</clientEnvironment>\r\n <purchaseTotals>\r\n  <currency>USD</currency>\r\n  <grandTotalAmount>69.00</grandTotalAmount>\r\n </purchaseTotals>\r\n <ccAuthReversalService run=\"true\">\r\n  <authRequestID>ssdsdsd</authRequestID>\r\n  <authRequestToken>4721a242-01f3-47fa-a4f2-18101ede79a2dd</authRequestToken>\r\n </ccAuthReversalService>\r\n</requestMessage>\r\n</soapenv:Body>"
             },
             "description": ""
           },
