@@ -2098,7 +2098,7 @@
           "_postman_id": "ef2c05be-ad71-6e22-ce53-77f608774e23",
           "name": "Sim-Capture",
           "request": {
-            "url": "{{url}}:{{simport}}/simulator-fraud",
+            "url": "{{url}}:{{simport}}/simulator-cssim",
             "method": "POST",
             "header": [
               {
@@ -2109,7 +2109,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "<soapenv:Body>\n<requestMessage xmlns=\"urn:schemas-cybersource-com:transaction-data-1.93\">\n\t\t\t    <merchantID>e4x_test_usd</merchantID>\n\t\t\t    <merchantReferenceCode>E4X000000111111098987771_4</merchantReferenceCode>\n\t\t\t     <invoiceHeader>\n\t                    <merchantDescriptor>BF*AutoMerch1U PPS</merchantDescriptor>\n\t                    <merchantDescriptorContact>0777777777</merchantDescriptorContact>\n                  </invoiceHeader>\n                  <purchaseTotals>\n                    <currency>CN</currency>\n                    <grandTotalAmount>1730.43</grandTotalAmount>\n                  </purchaseTotals>\n                  <ccCaptureService run=\"true\">\n                    <authRequestID>4152757723550176195844</authRequestID>\n                    <authRequestToken>Ahj77wSRPnLZ5HlpUgD0NpvFlDEw4BTeLKGJh2dEMO0BbF4NJMq6PSMtehAkT5y2eR5aVIA9AAAAgxCn</authRequestToken>\n                  </ccCaptureService>\n\t\t\t  </requestMessage>\n</soapenv:Body>"
+              "raw": "<soapenv:Body>\n<requestMessage xmlns=\"urn:schemas-cybersource-com:transaction-data-1.93\">\n          <merchantID>e4x_test_usd</merchantID>\n          <merchantReferenceCode>E4X0000001111110989ddd87771_4</merchantReferenceCode>\n           <invoiceHeader>\n                      <merchantDescriptor>BF*AutoMerch1U PPS</merchantDescriptor>\n                      <merchantDescriptorContact>0777777777</merchantDescriptorContact>\n                  </invoiceHeader>\n                  <purchaseTotals>\n                    <currency>CN</currency>\n                    <grandTotalAmount>1730.43</grandTotalAmount>\n                  </purchaseTotals>\n                  <ccCaptureService run=\"true\">\n                    <authRequestID>4152757723550176195844</authRequestID>\n                    <authRequestToken>Ahj77wSRPnLZ5HlpUgD0NpvFlDEw4BTeLKGJh2dEMO0BbF4NJMq6PSMtehAkT5y2eR5aVIA9AAAAgxCn</authRequestToken>\n                  </ccCaptureService>\n        </requestMessage>\n</soapenv:Body>"
             },
             "description": ""
           },
