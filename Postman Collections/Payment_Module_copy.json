@@ -2054,7 +2054,7 @@
           "_postman_id": "ab9afdbc-9dfd-5684-702f-25ff2c6f7c26",
           "name": "Sim-AuthWithFraud",
           "request": {
-            "url": "{{url}}:{{simport}}/simulator-fraud",
+            "url": "{{url}}:8080/simulator-cssim",
             "method": "POST",
             "header": [
               {
