@@ -2033,7 +2033,7 @@
           "_postman_id": "4a9cd6bc-c14e-9e97-a410-0a81f6919b31",
           "name": "Sim-Refund",
           "request": {
-            "url": "{{url}}:{{simport}}/simulator-fraud",
+            "url": "https://cssim-integration.bfretail.pitneycloud.com/simulator-fraud",
             "method": "POST",
             "header": [
               {
