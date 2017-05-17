@@ -79,7 +79,7 @@
           "_postman_id": "4c0c30a6-6040-e8e2-f796-a6852f43ce9a",
           "name": "authorize with fraud",
           "request": {
-            "url": "{{url}}:{{internal-port}}/payment-authorize-with-fraud",
+            "url": "localhost:8091/payment-authorize-with-fraud",
             "method": "POST",
             "header": [
               {
