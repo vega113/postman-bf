@@ -449,50 +449,42 @@
                 {
                   "key": "PaReq",
                   "value": "eNpVkdtSwjAQhu/zFAzjdXNoAcssmamCiqKgQhkuaxptGWghbZX69CY9iOZqv81usv+/sIyUlONXKQolOTzKLAs+ZCcOR93t6WG2Ze5mtWar3KObZxKRLoeF9yKPHD6lyuI04dQiFgPcItJPKBEFSc4hEMer6RN3+i6jfcANIthLNR1z26EOYw4j9QFcpxEkwV7ym/g9LzvzRAKuGIFIiyRXJb90dG0LCAq141GeH7IhxqJ802OkhRLSEukesLlEgM8jLQoTZVrpKQ55kESz5W1azv2d73/f++Fkclr7k69g7I0AmwoEYZBLzgjtUUbsDqXDnj2kLuAqjyDYm0n4BSXEMiIaRnAwP3k10Vrg35TWUyglE9EKagmBPB3SROoabetvrFWcZ7++M+aKXNs1GNgD4hpzK6y6Y20MHdC6Pa5cwqYFN6vDzZZ19G/7PyMhqFs=",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 },
                 {
                   "key": "TermUrl",
                   "value": "http://localhost:8080/myapp/cybersource-acs-result.jsp",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 },
                 {
                   "key": "MD",
                   "value": "anhLTGoyOVlVVzJVdEExWVEwaDA=",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 },
                 {
                   "key": "screensubmit",
                   "value": "true",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 },
                 {
                   "key": "xternal.field.username",
                   "value": "test1",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 },
                 {
                   "key": "external.field.password",
                   "value": "1234",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 },
                 {
                   "key": "external.field.password.encoding",
                   "value": "SHA1",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 },
                 {
                   "key": "UsernamePasswordEntry",
                   "value": "Submit",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 }
               ]
             },
@@ -727,6 +719,32 @@
             "body": {
               "mode": "raw",
               "raw": "{ \n  \"meansOfPayment\": {\n    \"dataType\": \"TOKEN\",\n    \"data\": {\n      \"token\": \"eyJleHBZZWFyIjoyMDE3LCJtYWMiOiIxOlVpM0VMcjJLanBraU10aHBTT1F5dmwxQjVKMlQ3ZHlqSGZNT2szeWd1QWMiLCJ0aW1lc3RhbXAiOiIyMDE3LTAzLTE0IDExOjU5OjE0LjMwMiIsImRhdGEiOiJBRmpIMnhMb0hNTGZOOV9JY0pyR2Q1Y3ctS0dzIiwiY2FyZE51bVN1ZmZpeCI6IjAwODUiLCJleHBNb250aCI6NCwidmVuZG9yIjoiQU1FWCJ9\"\n    }\n  },\n\"orderDetails\": \n{ \n   \"orderReferenceCode\":\"sdsddddsddddsddddssd11\", \n   \"basket\":\n   { \"items\":\n    [ \n     { \n       \"productName\":\"item1\", \n       \"sku\":\"sku1\", \n       \"productCode\":\"2283-sku1\", \n       \"price\":12.10, \n       \"quantity\":1 \n     }, \n     {\n       \"productName\":\"item2\", \n       \"sku\":\"sku2\", \n       \"productCode\":\"2283-sku2\", \n       \"price\":56.90, \n       \"quantity\":1 \n     } \n    ], \n    \"totalAmount\":69.00, \n    \"currency\":\"CAD\" }, \n   \"billingAddress\":\n   { \n    \"title\":\"Mr.\", \n    \"firstName\":\"Eyal\", \n    \"middleName\":\"middleEyal\", \n    \"lastName\":\"zelikov\", \n    \"suffix\":\"son of dady\", \n    \"line1\":\"haneviim 54\", \n    \"line2\":\"Line2\", \n    \"city\":\"Bat Yam\", \n    \"postalCode\":\"94043\", \n    \"state\":\"IL\", \n    \"country\":\"US\", \n    \"phone\":\"123456789100\" \n   }, \n   \"shippingAddress\":\n   { \n     \"title\":\"Mr.\", \n    \"firstName\":\"John\", \n    \"middleName\":\"middleJohn\", \n    \"lastName\":\"DoeRsd\", \n    \"suffix\":\"son of Johny jon\" , \n    \"line1\":\"1295 Charleston Road\", \n    \"line2\":\"Line2\", \n    \"city\":\"Mountain View\", \n    \"postalCode\":\"94043\", \n    \"state\":\"CA\", \n    \"country\":\"US\", \n    \"phone\":\"987654321000\" \n   }, \n   \"shopperInfo\":\n   { \n    \"email\":\"null@cybersource.com\", \n    \"hostname\":\"hackers.com\", \n    \"httpBrowserCookiesAccepted\":null, \n    \"httpBrowserType\":null, \n    \"ipNetworkAddress\":\"null@cybersource.com\", \n    \"ipAddress\":\"10.7.111.111\" \n   } \n}, \n\"customData\":\n{ \n  \"merchant\": \"BF*AutoMerch1 PPS_\",\n  \"billingAlternativePhoneNum\": \"5555-6666_\",\n  \"shippingPrimaryPhoneNum\": \"5555-6666_\",\n  \"shippingAlternativePhoneNum\": \"5555-6666_\",\n  \"shippingEmailAddress\": \"john.h.smith@mail.com_\",\n  \"billingEmailAddress\": \"john.h.smith@mail.com_\",\n  \"e4xShippingMethod\": \"Express_\",\n  \"totalOrderUs\": 400,\n  \"merchandiseUS\":500, \n  \"orderTotalLocalCurrency\": \"stam1\",\n  \"promoCodeUsed\": \"stam2\",\n  \"paymentType\": \"stam3\",\n  \"processorAccountId\": \"stam4\",\n  \"authResult\": \"stam5\",\n  \"refusalReason\": \"stam6\",\n  \"authResponseDescription\": \"stam7\",\n  \"processorReferenceNumber\": \"stam8\",\n  \"field18\": \"stam9\",\n  \"field19\": \"stam10\"\n\n},  \n\"account\": {\n    \"id\": \"e4x_test_cad\",\n    \"group\": \"CS\",\n    \"subAccounts\": [\n      {\n        \"accountType\": \"STANDARD\",\n        \"userName\": \"e4x_test_cad\",\n        \"password\": \"697acae4359466387fe897789d40e17d0f5c71db7f29751cfc08db419ce6d38f3ede0931d1821deef2f1d72d216fc1f8d9c32f519dbf17d0e41beae355a0b07f1eb08c0ee5b65d677d280a27131e0885809fa8b75b379c8aa507fc6eb0fd5c64a3ff243648ab1ca2157a99610e56b185734b27ad69a92ecd7b9fa782e8057ae0b3ad94f33112292486fe23c55d866902267130d956f9d8f00a22e924fee682d9f644e38a065ca9608ddffe07be1149243596c235daa70c0409e138ec0ff4273c93cba7c56bd515e532ed4a56468005cd44ff39b3dc24090ef331f795aeaeb0cd34d6e5e1e1f03c66e7a16addd182965c17ed3a3efe68c3f09862a502a84cfe035a51c4ef590b8e08b171efcc662f9ecf469d51e0f8b21848109e43410cde7a84cb61103ddd3a9987dd171303824445ba71ca482e12108ad9c07a422b85b263b050c97c9933ac8d98584a14d6abfdd56266ee191725315933cb18eee48e632e99c922c874e49c60d3c4a002f01712d396\",\n        \"urlId\": \"cs-STANDARD\",\n        \"timeout\": {\n        \t\"length\": 20,\n        \t\"unit\": \"seconds\"\n        }\n      },\n      {\n        \"accountType\": \"REPORT\",\n        \"userName\": \"pmsvc\",\n        \"password\": \"e9fd8d1a392ff18ed579f9fc7c3cf9876cab3696e624bb345a17801f34495179\",\n        \"urlId\": \"cs-REPORT\"\n      }\n    ]\n  }\n} \n"
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "097d025a-5b88-3ea6-9d9d-e607c3bacd39",
+          "name": "authorize with fraud copy",
+          "request": {
+            "url": "localhost:8091/payment-authorize-with-fraud",
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "X-User-Tx-Ref",
+                "value": "yuri",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{ \n  \"meansOfPayment\": {\n    \"dataType\": \"TOKEN\",\n    \"data\": {\n      \"token\": \"eyJleHBZZWFyIjoyMDE2LCJtYWMiOiIxOi1pN2paMWd2Y20zRUpJd2I3S0RyREtCQ2VEWVREX0V1Tzd1ajU5M25zRlUiLCJ0aW1lc3RhbXAiOiIyMDE3LTAzLTA1IDEyOjQwOjA3LjY1MyIsImRhdGEiOiJBRmk4QnljTWpiQ2tyMEk5eXFkRThjZGpCTFVTIiwiY2FyZE51bVN1ZmZpeCI6IjAwMDciLCJleHBNb250aCI6MiwidmVuZG9yIjoiTWFzdGVyQ2FyZCJ9\"\n    }\n  },\n\"orderDetails\": \n{ \n   \"orderReferenceCode\":\"e4x20dd0wderadddsddddsdf1ddeed11\", \n   \"basket\":\n   { \"items\":\n    [ \n     { \n       \"productName\":\"item1\", \n       \"sku\":\"sku1\", \n       \"productCode\":\"2283-sku1\", \n       \"price\":12.10, \n       \"quantity\":1 \n     }, \n     {\n       \"productName\":\"item2\", \n       \"sku\":\"sku2\", \n       \"productCode\":\"2283-sku2\", \n       \"price\":56.90, \n       \"quantity\":1 \n     } \n    ], \n    \"totalAmount\":69.00, \n    \"currency\":\"CAD\" }, \n   \"billingAddress\":\n   { \n    \"title\":\"Mr.\", \n    \"firstName\":\"Eyal\", \n    \"middleName\":\"middleEyal\", \n    \"lastName\":\"zelikov\", \n    \"suffix\":\"son of dady\", \n    \"line1\":\"haneviim 54\", \n    \"line2\":\"Line2\", \n    \"city\":\"Bat Yam\", \n    \"postalCode\":\"94043\", \n    \"state\":\"IL\", \n    \"country\":\"US\", \n    \"phone\":\"123456789100\" \n   }, \n   \"shippingAddress\":\n   { \n     \"title\":\"Mr.\", \n    \"firstName\":\"John\", \n    \"middleName\":\"middleJohn\", \n    \"lastName\":\"DoeRsd\", \n    \"suffix\":\"son of Johny jon\" , \n    \"line1\":\"1295 Charleston Road\", \n    \"line2\":\"Line2\", \n    \"city\":\"Mountain View\", \n    \"postalCode\":\"94043\", \n    \"state\":\"CA\", \n    \"country\":\"US\", \n    \"phone\":\"987654321000\" \n   }, \n   \"shopperInfo\":\n   { \n    \"email\":\"null@cybersource.com\", \n    \"hostname\":\"hackers.com\", \n    \"httpBrowserCookiesAccepted\":null, \n    \"httpBrowserType\":null, \n    \"ipNetworkAddress\":\"null@cybersource.com\", \n    \"ipAddress\":\"10.7.111.111\" \n   } \n}, \n\"customData\":\n{ \n  \"merchant\": \"BF*AutoMerch1 PPS_\",\n  \"billingAlternativePhoneNum\": \"5555-6666_\",\n  \"shippingPrimaryPhoneNum\": \"5555-6666_\",\n  \"shippingAlternativePhoneNum\": \"5555-6666_\",\n  \"shippingEmailAddress\": \"john.h.smith@mail.com_\",\n  \"billingEmailAddress\": \"john.h.smith@mail.com_\",\n  \"e4xShippingMethod\": \"Express_\",\n  \"totalOrderUs\": 400,\n  \"merchandiseUS\":500, \n  \"orderTotalLocalCurrency\": \"stam1\",\n  \"promoCodeUsed\": \"stam2\",\n  \"paymentType\": \"stam3\",\n  \"processorAccountId\": \"stam4\",\n  \"authResult\": \"stam5\",\n  \"refusalReason\": \"stam6\",\n  \"authResponseDescription\": \"stam7\",\n  \"processorReferenceNumber\": \"stam8\",\n  \"field18\": \"stam9\",\n  \"field19\": \"stam10\"\n\n}\n} \n"
             },
             "description": ""
           },
@@ -1452,50 +1470,42 @@
                 {
                   "key": "teamCityBuildId",
                   "value": "PaymentModule_FraudServiceBuildCommitPhase_13PaymentModuleBuild",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 },
                 {
                   "key": "buildNumber",
                   "value": "lastSuccessful",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 },
                 {
                   "key": "branch",
                   "value": "nj-fraud-version",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 },
                 {
                   "key": "fsRoot",
                   "value": "/opt",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 },
                 {
                   "key": "appName",
                   "value": "pmsvc",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 },
                 {
                   "key": "jenkinsUrl",
                   "value": "http://jenkins.e4x.com:6080/userContent",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 },
                 {
                   "key": "smokeTimeout",
                   "value": "600000",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 },
                 {
                   "key": "envName",
                   "value": "pmsvcperf",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 }
               ]
             },
@@ -1585,8 +1595,7 @@
                 {
                   "key": "content",
                   "value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!DOCTYPE CaseManagementOrderStatus SYSTEM \"https://ebctest.cybersource.com/ebctest/reports/dtd/cmorderstatus.dtd\"> <CaseManagementOrderStatus xmlns=\"http://reports.cybersource.com/reports/cmos/1.0\" MerchantID=\"e4x_test_cad\" Name=\"Case Management Order Status\" Date=\"2008-01-24 20:23:15 GMT\" Version=\"1.0\">    <Update MerchantReferenceNumber=\"dfdfdf1111111asdsddddsdsawwsssddsasas11\" RequestID=\"2011720512010008401927\">       <OriginalDecision>REVIEW</OriginalDecision>       <NewDecision>REVIEW</NewDecision>       <Reviewer>QA</Reviewer>       <ReviewerComments>no contact from cust</ReviewerComments>       <Notes>          <Note Date=\"2008-01-24 14:59:53\" AddedBy=\"jnelson\" Comment=\"Called left message with secretary\" />          <Note Date=\"2008-01-18 01:31:37\" AddedBy=\"jnelson\" Comment=\"IP and BIN both match billing country. No listings for customer at billing address in 192.com. Ship address is listed to CEPHALON UK LIMITED. E-mail address is valid. E-mail is listed to ship name. Will call in the morning to try to get ahold of Cust.\" />       </Notes>       <Queue>High Dollar/Risk</Queue>       <Profile>High Risk/Dollar Profile</Profile>    </Update> </CaseManagementOrderStatus>",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 }
               ]
             },
@@ -2149,8 +2158,7 @@
                 {
                   "key": "Remote-Address",
                   "value": "",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 }
               ]
             },
@@ -2371,8 +2379,7 @@
                 {
                   "key": "Xml",
                   "value": "<Message version=\"1.0\"> \t\t\t\t\t\t\t\t\t   <Header> \t <Sender> \t\t<Name>michpb catalog</Name> \t\t\t<Identity> \t\t\t\t<InstID>1981</InstID> \t\t\t\t<UserID>007</UserID> \t\t\t\t<Password>007</Password> \t\t\t</Identity> \t</Sender> <Time>10 Jun 2007 14:40:30 GMT</Time> </Header> <Body type=\"Catalog\"> \t<Catalog> \t<CategoryList> \t\t<Category> \t\t\t<CategoryID>1</CategoryID> \t\t\t<MerchID>0</MerchID> \t\t\t<Name>1 NAme</Name> \t\t\t<Desc>1 Electronics</Desc> \t\t\t<URL>http://e4x.com/category</URL> \t\t</Category> \t</CategoryList> \t<ProductList> \t\t<Product> \t\t\t<SKU>product1</SKU> \t\t\t<MerchID>0</MerchID> \t\t\t<Name>product1</Name> \t\t\t<Desc>product1</Desc> \t\t\t<MerchantReference>1006ddd</MerchantReference> \t\t\t<UPC>http://www.FiftyOne.com/product</UPC> \t\t\t<Manufacturer>San Disk</Manufacturer> \t\t\t<URL>http://www.FiftyOne.com/product</URL> \t\t\t<ImageURL>http://qa-bea2/utils/WD1600JBWesternDigital.jpg</ImageURL> \t\t\t<DefaultLocale>en-us</DefaultLocale> \t\t\t<DutiablePrice>100</DutiablePrice> \t\t\t<COO>US</COO> \t\t\t<COS>US</COS> \t\t\t<Condition>New</Condition> \t\t\t<ProductDimensions units=\"cm\"> \t\t\t\t<Length>4</Length> \t\t\t\t<Width>1</Width> \t\t\t\t<Height>1</Height> \t\t\t</ProductDimensions> \t\t\t<BoxDimensions units=\"cm\"> \t\t\t\t<Length>8</Length> \t\t\t\t<Width>4</Width> \t\t\t\t<Height>4</Height> \t\t\t</BoxDimensions> \t\t\t<NetWeight units=\"kg\">1</NetWeight> \t\t\t<Note>test</Note> \t\t\t<Localization> \t\t\t\t<Locale id=\"he-il\"> \t\t\t\t\t<Name>&#1491;&#1497;&#1505;&#1511; &#1488;&#1493;&#1503; &#1511;&#1497;</Name>  \t\t\t\t\t<Desc>&#1494;&#1497;&#1499;&#1512;&#1493;&#1503; &#1504;&#1491;&#1497;&#1507;</Desc>  \t\t\t\t\t<Price currency=\"ILS\">420</Price>  \t\t\t\t</Locale> \t\t\t</Localization> \t\t\t<Parents> \t\t\t\t<CategoryID>1</CategoryID> \t\t\t</Parents> \t\t</Product> \t</ProductList> </Catalog> </Body> </Message>",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 }
               ]
             },
@@ -2398,8 +2405,7 @@
                     {
                       "key": "Xml",
                       "value": "<Message version=\"1.0\"> \t\t\t\t\t\t\t\t\t   <Header> \t <Sender> \t\t<Name>michpb catalog</Name> \t\t\t<Identity> \t\t\t\t<InstID>1981</InstID> \t\t\t\t<UserID>007</UserID> \t\t\t\t<Password>007</Password> \t\t\t</Identity> \t</Sender> <Time>10 Jun 2007 14:40:30 GMT</Time> </Header> <Body type=\"Catalog\"> \t<Catalog> \t<CategoryList> \t\t<Category> \t\t\t<CategoryID>1</CategoryID> \t\t\t<MerchID>0</MerchID> \t\t\t<Name>1 NAme</Name> \t\t\t<Desc>1 Electronics</Desc> \t\t\t<URL>http://e4x.com/category</URL> \t\t</Category> \t</CategoryList> \t<ProductList> \t\t<Product> \t\t\t<SKU>product1</SKU> \t\t\t<MerchID>0</MerchID> \t\t\t<Name>product1</Name> \t\t\t<Desc>product1</Desc> \t\t\t<MerchantReference>1006ddd</MerchantReference> \t\t\t<UPC>http://www.FiftyOne.com/product</UPC> \t\t\t<Manufacturer>San Disk</Manufacturer> \t\t\t<URL>http://www.FiftyOne.com/product</URL> \t\t\t<ImageURL>http://qa-bea2/utils/WD1600JBWesternDigital.jpg</ImageURL> \t\t\t<DefaultLocale>en-us</DefaultLocale> \t\t\t<DutiablePrice>100</DutiablePrice> \t\t\t<COO>US</COO> \t\t\t<COS>US</COS> \t\t\t<Condition>New</Condition> \t\t\t<ProductDimensions units=\"cm\"> \t\t\t\t<Length>4</Length> \t\t\t\t<Width>1</Width> \t\t\t\t<Height>1</Height> \t\t\t</ProductDimensions> \t\t\t<BoxDimensions units=\"cm\"> \t\t\t\t<Length>8</Length> \t\t\t\t<Width>4</Width> \t\t\t\t<Height>4</Height> \t\t\t</BoxDimensions> \t\t\t<NetWeight units=\"kg\">1</NetWeight> \t\t\t<Note>test</Note> \t\t\t<Localization> \t\t\t\t<Locale id=\"he-il\"> \t\t\t\t\t<Name>&#1491;&#1497;&#1505;&#1511; &#1488;&#1493;&#1503; &#1511;&#1497;</Name>  \t\t\t\t\t<Desc>&#1494;&#1497;&#1499;&#1512;&#1493;&#1503; &#1504;&#1491;&#1497;&#1507;</Desc>  \t\t\t\t\t<Price currency=\"ILS\">420</Price>  \t\t\t\t</Locale> \t\t\t</Localization> \t\t\t<Parents> \t\t\t\t<CategoryID>1</CategoryID> \t\t\t</Parents> \t\t</Product> \t</ProductList> </Catalog> </Body> </Message>",
-                      "type": "text",
-                      "enabled": true
+                      "type": "text"
                     }
                   ]
                 },
@@ -2933,8 +2939,7 @@
                 {
                   "key": "Remote-Address",
                   "value": "",
-                  "type": "text",
-                  "enabled": true
+                  "type": "text"
                 }
               ]
             },
