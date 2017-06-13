@@ -1909,7 +1909,7 @@
           "_postman_id": "097d025a-5b88-3ea6-9d9d-e607c3bacd39",
           "name": "route: authorize with fraud",
           "request": {
-            "url": "localhost:8098/payment-authorize-with-fraud",
+            "url": "localhost:8098/routing/payment-authorize-with-fraud",
             "method": "POST",
             "header": [
               {
