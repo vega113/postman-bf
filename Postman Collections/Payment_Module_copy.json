@@ -1735,7 +1735,7 @@
           "_postman_id": "1f822502-7f67-50c8-f310-d1677b988ff4",
           "name": "find account id",
           "request": {
-            "url": "{{url}}:{{config-port}}/simulator/config/account",
+            "url": "{{pmconfig}}/config/account",
             "method": "POST",
             "header": [
               {
@@ -1746,7 +1746,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n\t\"entityDetails\" : {\n        \"entityId\" : \"BF-USA\"\n    },\n    \"paymentMethodId\": \"Visa\",\n    \"currencyCode\": \"USD\"\n}"
+              "raw": "{\n  \"entityDetails\" : {\n        \"entityId\" : \"BF-IRL\"\n    },\n    \"paymentMethodId\": \"AMEX\",\n    \"currencyCode\": \"USD\"\n}"
             },
             "description": ""
           },
