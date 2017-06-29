@@ -1789,7 +1789,7 @@
           "_postman_id": "244df9d6-eb27-a7e2-5564-d7280912041f",
           "name": "find account info",
           "request": {
-            "url": "{{url}}:{{config-port}}/simulator/config/accountInfo",
+            "url": "{{pmconfig}}/simulator/config/accountInfo",
             "method": "POST",
             "header": [
               {
@@ -1800,7 +1800,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n\t\"key\":{\n    \"entityDetails\" : {\n        \"entityId\" : \"BF-USA\"\n    },\n    \"paymentMethodId\": \"Visa\",\n    \"currencyCode\": \"USD\",\n    \"serviceType\" : \"PAYMENT\"\n}\n}\n"
+              "raw": "{\n  \"key\":{\n    \"entityDetails\" : {\n        \"entityId\" : \"BF-USA\"\n     },\n    \"paymentMethodId\": \"Visa\",\n    \"currencyCode\": \"USD\",\n    \"serviceType\" : \"PAYMENT\"\n\t}\n}\n"
             },
             "description": ""
           },
