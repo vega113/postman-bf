@@ -1756,7 +1756,7 @@
           "_postman_id": "425618ab-6dba-08b5-59f6-ee193d7ddb37",
           "name": "get entity provider configuration",
           "request": {
-            "url": "{{url}}:8098/config/entity-providers-config",
+            "url": "{{pmconfig}}/config/entity-providers-config",
             "method": "GET",
             "header": [],
             "body": {},
