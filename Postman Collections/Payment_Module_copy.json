@@ -1888,7 +1888,7 @@
           "_postman_id": "a62eddeb-1941-f879-d399-aedb205b77e1",
           "name": "find account info pitney",
           "request": {
-            "url": " https://services-master.bfretail.pitneycloud.com/payment-configuration-service/simulator/config/accountInfo",
+            "url": "{{pmconfig}}/simulator/config/accountInfo",
             "method": "POST",
             "header": [
               {
