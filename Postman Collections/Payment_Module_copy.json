@@ -3373,24 +3373,6 @@
             "description": ""
           },
           "response": []
-        },
-        {
-          "_postman_id": "4fb0ae83-3e2c-6842-ca8d-7e252de5a9d6",
-          "name": "get external provider configuration copy",
-          "request": {
-            "url": "{{url}}:{{internal-port}}/config/external-providers-config",
-            "method": "GET",
-            "header": [
-              {
-                "key": "Content-Type",
-                "value": "application/json",
-                "description": ""
-              }
-            ],
-            "body": {},
-            "description": ""
-          },
-          "response": []
         }
       ]
     },
