@@ -1768,7 +1768,7 @@
           "_postman_id": "8548282b-2925-d6f3-d9bb-eb7c532e928d",
           "name": "put entity provider configuration",
           "request": {
-            "url": "{{url}}:8098/config/entity-providers-config",
+            "url": "{{pmconfig}}/config/entity-providers-config",
             "method": "PUT",
             "header": [
               {
