@@ -1978,7 +1978,7 @@
         },
         {
           "_postman_id": "277a27da-ab84-cd3e-7c2c-14cdf170fb6c",
-          "name": "find account info entity copy",
+          "name": "find account info smart routing key",
           "request": {
             "url": "{{pmconfig}}/simulator/config/accountInfo",
             "method": "POST",
