@@ -1961,7 +1961,13 @@
           "request": {
             "url": "{{pmconfig}}/config/smart-routing-config",
             "method": "PUT",
-            "header": [],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"data\": {\n    \"routing\": [\n      {\n        \"entityId\": \"BF-USA\",\n        \"accountId\": \"e4x_test_usd\",\n        \"paymentMethodId\": \"Visa\",\n        \"binCountry\": \"FR\",\n        \"currency\": \"EUR\",\n        \"group\": \"CS\"\n      },\n      {\n        \"entityId\": \"BF-USA\",\n        \"accountId\": \"e4x_test_cad\",\n        \"paymentMethodId\": \"Visa\",\n        \"binCountry\": \"CA\",\n        \"currency\": \"CAD\",\n        \"group\": \"CS\"\n      },\n      {\n        \"entityId\": \"BF-USA\",\n        \"accountId\": \"e4x_test_cad\",\n        \"paymentMethodId\": \"ALL\",\n        \"binCountry\": \"US\",\n        \"currency\": \"USD\",\n        \"group\": \"CS\"\n      },\n      {\n        \"accountId\": \"e4x_test_cad2\",\n        \"paymentMethodId\": \"Visa\",\n        \"binCountry\": \"CA\",\n        \"currency\": \"CAD\",\n        \"group\": \"CS\"\n      },\n      {\n        \"entityId\": \"BF-USA\",\n        \"accountId\": \"e4x_test_cad\",\n        \"paymentMethodId\": \"Visa\",\n        \"currency\": \"USD\",\n        \"group\": \"CS\"\n      }\n    ]\n  },\n  \"version\": 12862489237796245\n}"
