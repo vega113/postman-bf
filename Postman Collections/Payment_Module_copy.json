@@ -1787,7 +1787,7 @@
         },
         {
           "_postman_id": "244df9d6-eb27-a7e2-5564-d7280912041f",
-          "name": "find account info",
+          "name": "find account info entity",
           "request": {
             "url": "{{pmconfig}}/simulator/config/accountInfo",
             "method": "POST",
