@@ -1954,6 +1954,18 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "f3e1056d-e3fd-63f3-308d-e3a014a6dec3",
+          "name": "get smart configuration copy",
+          "request": {
+            "url": "{{pmconfig}}/config/smart-routing-config",
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
