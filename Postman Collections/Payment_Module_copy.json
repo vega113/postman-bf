@@ -1980,7 +1980,7 @@
           "_postman_id": "277a27da-ab84-cd3e-7c2c-14cdf170fb6c",
           "name": "find account info smart routing key",
           "request": {
-            "url": "{{pmconfig}}/simulator/config/accountInfo",
+            "url": "{{pmconfig}}/config/smartAccountInfo",
             "method": "POST",
             "header": [
               {
@@ -1991,7 +1991,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"key\":{\n    \"paymentMethodId\": \"Visa\",\n    \"currencyCode\": \"USD\",\n    \"serviceType\" : \"PAYMENT\"\n\t}\n}\n"
+              "raw": "{\n  \"key\":{\n    \"paymentMethodId\": \"Visa\",\n    \"currencyCode\": \"USD\"\n\t}\n}\n"
             },
             "description": ""
           },
