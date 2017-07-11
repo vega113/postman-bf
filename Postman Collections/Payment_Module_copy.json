@@ -1930,6 +1930,18 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "5843001d-fef4-4cff-8a15-42c03a4682f9",
+          "name": "get entity provider configuration copy",
+          "request": {
+            "url": "{{pmconfig}}/config/entity-providers-config",
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
