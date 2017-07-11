@@ -1975,6 +1975,27 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "277a27da-ab84-cd3e-7c2c-14cdf170fb6c",
+          "name": "find account info entity copy",
+          "request": {
+            "url": "{{pmconfig}}/simulator/config/accountInfo",
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"key\":{\n    \"entityDetails\" : {\n        \"entityId\" : \"BF-USA\"\n     },\n    \"paymentMethodId\": \"Visa\",\n    \"currencyCode\": \"USD\",\n    \"serviceType\" : \"PAYMENT\"\n\t}\n}\n"
+            },
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
