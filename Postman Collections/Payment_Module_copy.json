@@ -1899,7 +1899,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n\t\"key\":{\n    \"entityDetails\" : {\n        \"entityId\" : \"BF-USA\"\n    },\n    \"paymentMethodId\": \"Visa\",\n    \"currencyCode\": \"USD\",\n    \"serviceType\" : \"PAYMENT\"\n}\n}\n"
+              "raw": "{\n  \"key\":{\n    \"entityDetails\" : {\n        \"entityId\" : \"BF-USA\"\n     },\n    \"paymentMethodId\": \"Visa\",\n    \"currencyCode\": \"USD\",\n    \"serviceType\" : \"PAYMENT\"\n\t }\n}\n"
             },
             "description": ""
           },
