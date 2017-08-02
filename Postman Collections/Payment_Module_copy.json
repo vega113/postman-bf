@@ -1735,7 +1735,7 @@
           "_postman_id": "18761c6b-6173-c9ab-9d79-3a156cd358dd",
           "name": "Route: Capture",
           "request": {
-            "url": "{{url}}:{{internal-port}}/capture",
+            "url": "{{pmconfig}}/simulator/routing/capture",
             "method": "POST",
             "header": [
               {
