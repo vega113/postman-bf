@@ -1746,7 +1746,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"orderReferenceCode\": \"e4x200wsdsasasdsdsweweewedasasdsdfd\",\n    \"transactionDetails\": {\n      \"uniqueId\": \"jdskajdalsewe73273189\",\n      \"currency\": \"CAD\",\n      \"amount\": 65.5,\n      \"merchantDescriptor\": \"buy from me more!\",\n      \"merchantDescriptorContact\": \"34434343434\"\n    }\n  }"
+              "raw": "{\n    \"orderReferenceCode\": \"test_invalid_tsosdken_15\",\n    \"transactionDetails\": {\n      \"uniqueId\": \"jdskajdalsewe73273189\",\n      \"currency\": \"CAD\",\n      \"amount\": 65.5,\n      \"merchantDescriptor\": \"buy from me more!\",\n      \"merchantDescriptorContact\": \"34434343434\"\n    }\n  }"
             },
             "description": ""
           },
