@@ -1733,7 +1733,7 @@
       "item": [
         {
           "_postman_id": "18761c6b-6173-c9ab-9d79-3a156cd358dd",
-          "name": "Capture copy",
+          "name": "Route: Capture",
           "request": {
             "url": "{{url}}:{{internal-port}}/capture",
             "method": "POST",
