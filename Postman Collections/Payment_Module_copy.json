@@ -817,6 +817,27 @@
               "body": "{\n  \"status\": \"REJECT\",\n  \"reconciliationId\": \"1442eeac-27ee-4ba5-bb36-0cd2b78f5852\",\n  \"providerMessage\": \"The order is rejected by Decision Manager.\",\n  \"providerReasonCode\": \"481\"\n}"
             }
           ]
+        },
+        {
+          "_postman_id": "18761c6b-6173-c9ab-9d79-3a156cd358dd",
+          "name": "Capture copy",
+          "request": {
+            "url": "{{url}}:{{internal-port}}/capture",
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"orderReferenceCode\": \"e4x200wsdsasasdsdsweweewedasasdsdfd\",\n    \"transactionDetails\": {\n      \"uniqueId\": \"jdskajdalsewe73273189\",\n      \"currency\": \"CAD\",\n      \"amount\": 65.5,\n      \"merchantDescriptor\": \"buy from me more!\",\n      \"merchantDescriptorContact\": \"34434343434\"\n    }\n  }"
+            },
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
