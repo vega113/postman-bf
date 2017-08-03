@@ -1047,27 +1047,6 @@
               "body": "{\n  \"status\": \"REJECT\",\n  \"reconciliationId\": \"1442eeac-27ee-4ba5-bb36-0cd2b78f5852\",\n  \"providerMessage\": \"The order is rejected by Decision Manager.\",\n  \"providerReasonCode\": \"481\"\n}"
             }
           ]
-        },
-        {
-          "_postman_id": "011efc38-c2d7-d535-2758-2a9c8060087f",
-          "name": "Capture with new CC copy",
-          "request": {
-            "url": "{{url}}:8091/captureMeansOfPayment",
-            "method": "POST",
-            "header": [
-              {
-                "key": "Content-Type",
-                "value": "application/json",
-                "description": ""
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "{\n    \"orderReferenceCode\": \"e4x200wsdsdsedssdewewedfd\",\n   \"meansOfPayment\": {\n    \"dataType\": \"TOKEN\",\n    \"data\": {\n      \"token\": \"eyJleHBZZWFyIjoyMDE2LCJtYWMiOiIxOi1pN2paMWd2Y20zRUpJd2I3S0RyREtCQ2VEWVREX0V1Tzd1ajU5M25zRlUiLCJ0aW1lc3RhbXAiOiIyMDE3LTAzLTA1IDEyOjQwOjA3LjY1MyIsImRhdGEiOiJBRmk4QnljTWpiQ2tyMEk5eXFkRThjZGpCTFVTIiwiY2FyZE51bVN1ZmZpeCI6IjAwMDciLCJleHBNb250aCI6MiwidmVuZG9yIjoiTWFzdGVyQ2FyZCJ9\"\n    }\n  },\n    \"transactionDetails\": {\n      \"uniqueId\": \"45678\",\n      \"currency\": \"USD\",\n      \"amount\": 69.11,\n      \"merchantDescriptor\": \"merchantDescriptor\",\n      \"merchantDescriptorContact\": \"077777777\"\n    },\n    \"billingAddress\": {\n      \"title\": \"Mr.\",\n      \"firstName\": \"John\",\n      \"lastName\": \"Doe\",\n      \"line1\": \"1295 Charleston Road\",\n      \"line2\": \"Line2\",\n      \"city\": \"Mountain View\",\n      \"postalCode\": \"94049\",\n      \"state\": \"CA\",\n      \"country\": \"US\",\n      \"phone\": \"972544743305\",\n      \"personalID\": \"personalID\"\n    },\n    \"shippingAddress\": {\n      \"title\": \"Mr.\",\n      \"firstName\": \"John\",\n      \"lastName\": \"Doe\",\n      \"line1\": \"shipping line 1\",\n      \"line2\": \"Line2\",\n      \"city\": \"Mountain View\",\n      \"postalCode\": \"94049\",\n      \"state\": \"CA\",\n      \"country\": \"US\",\n      \"phone\": \"972544743305\",\n      \"personalID\": \"personalID\"\n    },\n    \"shopperInfo\": {\n      \"email\": \"john@ILikePaymentServices.com\",\n      \"hostname\": \"hackers.com\",\n      \"httpBrowserCookiesAccepted\": \"a\",\n      \"httpBrowserType\": \"b\",\n      \"ipNetworkAddress\": \"john@ILikePaymentServices.com\",\n      \"ipAddress\": \"10.7.111.111\"\n    } ,\n    \"account\": {\n    \"id\": \"e4x_test_americas\",\n    \"group\": \"CS\",\n    \"subAccounts\": [\n      {\n        \"accountType\": \"STANDARD\",\n        \"userName\": \"e4x_test_americas\",\n        \"password\": \"f4e6e1caf0f349ad2730c673f95c1b2b73ab319e425a9069c0a3d3831f76c0444db6ad68e1cf79eb984fc7d09d16b82738a76f9edd2a84baf4628242a265f6f9f4a7c29d2706d4ba1104abb6343582668e46c1acb52c9408d7136323c5d4b9fc4982adcb2a6e7235802448cf239b4a8c47aed52dc20ede55bda9ccfcb53c04345a159ed41c1d7c4999bc3c979213ff8ebeb5c81f7fdc47e926799ffd48d51a167e5edbc3251c65e2d400bb6f3bccb2e1c60ec0eeadcf59cf39212e82fbbd86c95e53b907137f4135d4d5c691864e394cd75cf73d476ac442a18c2c8bdc56939ddc09f7899ed18a267dd5ff99734fa1b77e0461066cd8c099aa1c912c4c34bf944e6e34dd20eb7eb80377db55ba17c83e21da39aee24cf0d03279e77bfb5f90b77259a27da679392e4bd923ebb5c09e6c9307813a7f241434c83627cca7ce4f2b4d74c6ca429f42e4c66b5eff358b3e353ab7cf24377dfb277250acb1e15b56df4e9bb466d7b9fcaadc1ed96a517640c0\",\n        \"urlId\": \"simulator-STANDARD\",\n        \"timeout\": {\n          \"length\": 22,\n          \"unit\": \"s\"\n        }\n      },\n      {\n        \"accountType\": \"REPORT\",\n        \"userName\": \"pmsvc\",\n        \"password\": \"e9fd8d1a392ff18ed579f9fc7c3cf9876cab3696e624bb345a17801f34495179\",\n        \"urlId\": \"simulator-REPORT\"\n      }\n    ]\n  }\n  }"
-            },
-            "description": ""
-          },
-          "response": []
         }
       ]
     },
