@@ -826,87 +826,6 @@
       "description": "",
       "item": [
         {
-          "_postman_id": "e4609da9-3372-725c-59af-82a82cdc927a",
-          "name": "Help Capture with New CC",
-          "request": {
-            "url": "{{url}}/captureMeansOfPayment/help",
-            "method": "GET",
-            "header": [
-              {
-                "key": "Content-Type",
-                "value": "application/json",
-                "description": ""
-              }
-            ],
-            "body": {},
-            "description": ""
-          },
-          "response": [
-            {
-              "id": "58c39e16-09df-6350-8f17-e13423b513bb",
-              "name": "capture-reject",
-              "originalRequest": {
-                "url": "{{url}}/captureMeansOfPayment/help",
-                "method": "GET",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json",
-                    "description": ""
-                  }
-                ],
-                "body": {},
-                "description": ""
-              },
-              "status": "OK",
-              "code": 200,
-              "_postman_previewlanguage": "javascript",
-              "_postman_previewtype": "html",
-              "header": [
-                {
-                  "name": "Content-Length",
-                  "key": "Content-Length",
-                  "value": "184",
-                  "description": ""
-                },
-                {
-                  "name": "Content-Type",
-                  "key": "Content-Type",
-                  "value": "application/json; charset=UTF-8",
-                  "description": ""
-                },
-                {
-                  "name": "Date",
-                  "key": "Date",
-                  "value": "Wed, 05 Nov 2014 10:31:44 GMT",
-                  "description": ""
-                },
-                {
-                  "name": "Server",
-                  "key": "Server",
-                  "value": "spray-can/1.2.2-20140526",
-                  "description": ""
-                },
-                {
-                  "name": "X-Internal-Tx-Ref",
-                  "key": "X-Internal-Tx-Ref",
-                  "value": "b094328613584aca",
-                  "description": ""
-                },
-                {
-                  "name": "X-User-Tx-Ref",
-                  "key": "X-User-Tx-Ref",
-                  "value": "",
-                  "description": ""
-                }
-              ],
-              "cookie": [],
-              "responseTime": "2936",
-              "body": "{\n  \"status\": \"REJECT\",\n  \"reconciliationId\": \"1442eeac-27ee-4ba5-bb36-0cd2b78f5852\",\n  \"providerMessage\": \"The order is rejected by Decision Manager.\",\n  \"providerReasonCode\": \"481\"\n}"
-            }
-          ]
-        },
-        {
           "_postman_id": "6bc267c7-1f27-294f-6284-78157220eac9",
           "name": "Capture with new CC",
           "request": {
@@ -1009,7 +928,57 @@
             "body": {},
             "description": ""
           },
-          "response": []
+          "response": [
+            {
+              "id": "49a5cbdf-b555-0bde-26b8-0b7778d89c24",
+              "name": "capture-reject",
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "javascript",
+              "_postman_previewtype": "html",
+              "header": [
+                {
+                  "description": "",
+                  "key": "Content-Length",
+                  "name": "Content-Length",
+                  "value": "184"
+                },
+                {
+                  "description": "",
+                  "key": "Content-Type",
+                  "name": "Content-Type",
+                  "value": "application/json; charset=UTF-8"
+                },
+                {
+                  "description": "",
+                  "key": "Date",
+                  "name": "Date",
+                  "value": "Wed, 05 Nov 2014 10:31:44 GMT"
+                },
+                {
+                  "description": "",
+                  "key": "Server",
+                  "name": "Server",
+                  "value": "spray-can/1.2.2-20140526"
+                },
+                {
+                  "description": "",
+                  "key": "X-Internal-Tx-Ref",
+                  "name": "X-Internal-Tx-Ref",
+                  "value": "b094328613584aca"
+                },
+                {
+                  "description": "",
+                  "key": "X-User-Tx-Ref",
+                  "name": "X-User-Tx-Ref",
+                  "value": ""
+                }
+              ],
+              "cookie": [],
+              "responseTime": "2936",
+              "body": "{\n  \"status\": \"REJECT\",\n  \"reconciliationId\": \"1442eeac-27ee-4ba5-bb36-0cd2b78f5852\",\n  \"providerMessage\": \"The order is rejected by Decision Manager.\",\n  \"providerReasonCode\": \"481\"\n}"
+            }
+          ]
         }
       ]
     },
@@ -2634,6 +2603,27 @@
               "body": "{\n  \"status\": \"REJECT\",\n  \"reconciliationId\": \"1442eeac-27ee-4ba5-bb36-0cd2b78f5852\",\n  \"providerMessage\": \"The order is rejected by Decision Manager.\",\n  \"providerReasonCode\": \"481\"\n}"
             }
           ]
+        },
+        {
+          "_postman_id": "85075a3d-2a3c-7f65-1a47-e668db89a253",
+          "name": "Split-Capture copy",
+          "request": {
+            "url": "{{url}:8090}/captureWithAuth",
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": " {\n    \"orderReferenceCode\": \"E4x00001\",\n    \"transactionDetails\": {\n      \"uniqueId\": \"45678\",\n      \"currency\": \"USD\",\n      \"amount\": 69.11,\n      \"merchantDescriptor\": \"merchantDescriptor\",\n      \"merchantDescriptorContact\": \"077777777\"\n    },\n    \"billingAddress\": {\n      \"title\": \"Mr.\",\n      \"firstName\": \"John\",\n      \"lastName\": \"Doe\",\n      \"line1\": \"1295 Charleston Road\",\n      \"line2\": \"Line2\",\n      \"city\": \"Mountain View\",\n      \"postalCode\": \"94049\",\n      \"state\": \"CA\",\n      \"country\": \"US\",\n      \"phone\": \"972544743305\",\n      \"personalID\": \"personalID\"\n    },\n    \"shippingAddress\": {\n      \"title\": \"Mr.\",\n      \"firstName\": \"John\",\n      \"lastName\": \"Doe\",\n      \"line1\": \"1295 Charleston Road\",\n      \"line2\": \"Line2\",\n      \"city\": \"Mountain View\",\n      \"postalCode\": \"94049\",\n      \"state\": \"CA\",\n      \"country\": \"US\",\n      \"phone\": \"972544743305\",\n      \"personalID\": \"personalID\"\n    },\n    \"shopperInfo\": {\n      \"email\": \"john@ILikePaymentServices.com\",\n      \"hostname\": \"hackers.com\",\n      \"httpBrowserCookiesAccepted\": \"a\",\n      \"httpBrowserType\": \"b\",\n      \"ipNetworkAddress\": \"john@ILikePaymentServices.com\",\n      \"ipAddress\": \"10.7.111.111\"\n    }\n  }"
+            },
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
