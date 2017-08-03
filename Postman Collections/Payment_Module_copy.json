@@ -1303,6 +1303,27 @@
               "body": "{\n  \"status\": \"REJECT\",\n  \"reconciliationId\": \"1442eeac-27ee-4ba5-bb36-0cd2b78f5852\",\n  \"providerMessage\": \"The order is rejected by Decision Manager.\",\n  \"providerReasonCode\": \"481\"\n}"
             }
           ]
+        },
+        {
+          "_postman_id": "0909246d-8bd3-5a41-8934-636c8d81fc44",
+          "name": "Credit copy",
+          "request": {
+            "url": "{{url}}:{{internal-port}}/credit",
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"orderReferenceCode\": \"e4x200wsdsasasdsdsweweewedasasdsdfd\",\n    \"transactionDetails\": {\n      \"amount\": 69.11,\n      \"merchantDescriptor\": \"merchantDescriptor\",\n      \"currency\": \"CAD\",\n      \"uniqueId\": \"45678\",\n      \"merchantDescriptorContact\": \"077777777\"\n    },\n    \"billingAddress\": { \n    \"title\":\"Mr.\", \n    \"firstName\":\"Eyal\", \n    \"middleName\":\"middleEyal\", \n    \"lastName\":\"TIMEOUT\", \n    \"suffix\":\"son of dady\", \n    \"line1\":\"haneviim 54\", \n    \"line2\":\"Line2\", \n    \"city\":\"Bat Yam\", \n    \"postalCode\":\"94043\", \n    \"state\":\"IL\", \n    \"country\":\"US\", \n    \"phone\":\"123456789100\" \n   },\n    \"shopperInfo\": {\n      \"httpBrowserCookiesAccepted\": \"a\",\n      \"ipNetworkAddress\": \"john@ILikePaymentServices.com\",\n      \"hostname\": \"hackers.com\",\n      \"email\": \"john@ILikePaymentServices.com\",\n      \"httpBrowserType\": \"b\",\n      \"ipAddress\": \"10.7.111.111\"\n    }\n  }"
+            },
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
