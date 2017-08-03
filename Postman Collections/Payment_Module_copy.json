@@ -2222,27 +2222,6 @@
             "description": ""
           },
           "response": []
-        },
-        {
-          "_postman_id": "1aad24cd-7eed-17ae-57a5-95f2cb7ff13e",
-          "name": "Reverse copy",
-          "request": {
-            "url": "{{url}}:{{internal-port}}/reverseAuth",
-            "method": "POST",
-            "header": [
-              {
-                "key": "Content-Type",
-                "value": "application/json",
-                "description": ""
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": " {\n    \"orderReferenceCode\": \"e4x200wsdsasassqwqwqwdsdsdsdsdsddasassdsdsddsdfd\",\n    \"authorizationRequestId\" : \"4333306076015000001519\",\n    \"requestId\": \"85ba9df4-7ba2-4c4c-9d47-a0ddbfe716f1\",\n    \"requestToken\": \"Ahj/7wSR1dFnipeX1zfeNjK9edUoQY0+jabx0/jqpvtZAU/jqpvtZ0gbr0UIoZNJMq6PSMtfgTkdXRZ4qXl9c33gM3yo\"\n  }"
-            },
-            "description": ""
-          },
-          "response": []
         }
       ]
     },
