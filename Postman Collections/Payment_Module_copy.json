@@ -1481,7 +1481,7 @@
         },
         {
           "_postman_id": "05db7a84-f98c-0a0d-e48e-89fd1b06ef57",
-          "name": "Credit copy",
+          "name": "Credit new means of payment",
           "request": {
             "url": "{{url}}:{{internal-port}}/creditMeansOfPayment",
             "method": "POST",
@@ -1498,7 +1498,57 @@
             },
             "description": ""
           },
-          "response": []
+          "response": [
+            {
+              "id": "37fd424b-47e6-1d39-d4b3-36c9668473c0",
+              "name": "capture-reject",
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "javascript",
+              "_postman_previewtype": "html",
+              "header": [
+                {
+                  "description": "",
+                  "key": "Content-Length",
+                  "name": "Content-Length",
+                  "value": "184"
+                },
+                {
+                  "description": "",
+                  "key": "Content-Type",
+                  "name": "Content-Type",
+                  "value": "application/json; charset=UTF-8"
+                },
+                {
+                  "description": "",
+                  "key": "Date",
+                  "name": "Date",
+                  "value": "Wed, 05 Nov 2014 10:31:44 GMT"
+                },
+                {
+                  "description": "",
+                  "key": "Server",
+                  "name": "Server",
+                  "value": "spray-can/1.2.2-20140526"
+                },
+                {
+                  "description": "",
+                  "key": "X-Internal-Tx-Ref",
+                  "name": "X-Internal-Tx-Ref",
+                  "value": "b094328613584aca"
+                },
+                {
+                  "description": "",
+                  "key": "X-User-Tx-Ref",
+                  "name": "X-User-Tx-Ref",
+                  "value": ""
+                }
+              ],
+              "cookie": [],
+              "responseTime": "2936",
+              "body": "{\n  \"status\": \"REJECT\",\n  \"reconciliationId\": \"1442eeac-27ee-4ba5-bb36-0cd2b78f5852\",\n  \"providerMessage\": \"The order is rejected by Decision Manager.\",\n  \"providerReasonCode\": \"481\"\n}"
+            }
+          ]
         }
       ]
     },
