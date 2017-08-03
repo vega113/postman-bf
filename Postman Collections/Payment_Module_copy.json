@@ -723,27 +723,6 @@
             "description": ""
           },
           "response": []
-        },
-        {
-          "_postman_id": "853a5324-922e-d50e-9a7c-5d944b304a35",
-          "name": "payment-authorize-with-fraud copy",
-          "request": {
-            "url": "{{url}}:{{internal-port}}/payment-authorize-with-fraud",
-            "method": "POST",
-            "header": [
-              {
-                "key": "Content-Type",
-                "value": "application/json",
-                "description": ""
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "{ \n  \"meansOfPayment\": {\n    \"dataType\": \"TOKEN\",\n    \"data\": {\n      \"token\": \"eyJleHBZZWFyIjoyMDE4LCJtYWMiOiIxOlpqWWl0c3dqRi1lTjJMWTNRR0MyUy0zZVhJNUdrb2wtdEhvc29kV19TSUUiLCJ0aW1lc3RhbXAiOiIyMDE3LTA2LTI5IDA3OjI1OjQxLjkxOSIsImRhdGEiOiJBRmxVcTNYZGZNSVl1VXVLd3lUR1JZbUg1ZFhLIiwiY2FyZE51bVN1ZmZpeCI6IjExMTEiLCJleHBNb250aCI6NCwidmVuZG9yIjoiVmlzYSJ9\"\n    }\n  },\n\"orderDetails\": \n{ \n   \"orderReferenceCode\":\"sdsddddsddddsddddssd\", \n   \"basket\":\n   { \"items\":\n    [ \n     { \n       \"productName\":\"item1\", \n       \"sku\":\"sku1\", \n       \"productCode\":\"2283-sku1\", \n       \"price\":12.10, \n       \"quantity\":1 \n     }, \n     {\n       \"productName\":\"item2\", \n       \"sku\":\"sku2\", \n       \"productCode\":\"2283-sku2\", \n       \"price\":56.90, \n       \"quantity\":1 \n     } \n    ], \n    \"totalAmount\":69.00, \n    \"currency\":\"CAD\" }, \n   \"billingAddress\":\n   { \n    \"title\":\"Mr.\", \n    \"firstName\":\"Eyal\", \n    \"middleName\":\"middleEyal\", \n    \"lastName\":\"zelikov\", \n    \"suffix\":\"son of dady\", \n    \"line1\":\"haneviim 54\", \n    \"line2\":\"Line2\", \n    \"city\":\"Bat Yam\", \n    \"postalCode\":\"94043\", \n    \"state\":\"IL\", \n    \"country\":\"US\", \n    \"phone\":\"123456789100\" \n   }, \n   \"shippingAddress\":\n   { \n     \"title\":\"Mr.\", \n    \"firstName\":\"John\", \n    \"middleName\":\"middleJohn\", \n    \"lastName\":\"DoeRsd\", \n    \"suffix\":\"son of Johny jon\" , \n    \"line1\":\"1295 Charleston Road\", \n    \"line2\":\"Line2\", \n    \"city\":\"Mountain View\", \n    \"postalCode\":\"94043\", \n    \"state\":\"CA\", \n    \"country\":\"US\", \n    \"phone\":\"987654321000\" \n   }, \n   \"shopperInfo\":\n   { \n    \"email\":\"null@cybersource.com\", \n    \"hostname\":\"hackers.com\", \n    \"httpBrowserCookiesAccepted\":null, \n    \"httpBrowserType\":null, \n    \"ipNetworkAddress\":\"null@cybersource.com\", \n    \"ipAddress\":\"10.7.111.111\" \n   } \n}, \n\"customData\":\n{ \n  \"merchant\": \"BF*AutoMerch1 PPS_\",\n  \"billingAlternativePhoneNum\": \"5555-6666_\",\n  \"shippingPrimaryPhoneNum\": \"5555-6666_\",\n  \"shippingAlternativePhoneNum\": \"5555-6666_\",\n  \"shippingEmailAddress\": \"john.h.smith@mail.com_\",\n  \"billingEmailAddress\": \"john.h.smith@mail.com_\",\n  \"e4xShippingMethod\": \"Express_\",\n  \"totalOrderUs\": 400,\n  \"merchandiseUS\":500, \n  \"orderTotalLocalCurrency\": \"stam1\",\n  \"promoCodeUsed\": \"stam2\",\n  \"paymentType\": \"stam3\",\n  \"processorAccountId\": \"stam4\",\n  \"authResult\": \"stam5\",\n  \"refusalReason\": \"stam6\",\n  \"authResponseDescription\": \"stam7\",\n  \"processorReferenceNumber\": \"stam8\",\n  \"field18\": \"stam9\",\n  \"field19\": \"stam10\"\n\n},  \n  \"account\": {\n    \"id\": \"e4x_test_usd\",\n    \"group\": \"CS\",\n    \"subAccounts\": [\n      {\n        \"accountType\": \"STANDARD\",\n        \"userName\": \"e4x_test_usd\",\n        \"password\": \"7784c5e2866fadf7224ea7d42b1f0ce01c8c7af3042ed9aa813107f8dad28fb1a077ec0064d003179df2a8c1a4cacfd8bfdad30b3b8dcdc99c2e5d9f1e6227b4070603055c1078e33f60f543b08fedd46fe2fc4000d8436b1979871a1b6f13cc6c6d6a7b8ce18a14247ec955b2386b1656499bd7dfe1e2cc9b9737abdee266e93f3bcb947cbfb04ba71025b533210a64baeba4d446058e2580490cc6ce66a78e67af1c69d61678b5c029b696ac857d6570a552f235639400d04788abcef6eb655fdb7a1e702e6757a0d4a28f4eb74569221fcbf109caf80568c99a39c66f6c7295d08eccf5d50ace0b9e6d0c50feeb3aff61593599dfd74a67e12f1b3ce3b29c099c931d764610fa218fb2a1c61e651355d96e8b520d527c076d65358fb61a92a360c8e8f8007c27245042ae338be570bea27776232c6fc3e0136ee7cba2dbea1ef628b6c32aefe60e42fffacd1e362bff38c0958f9891031f0bac1ed50eb5660a135b5e14888d66645a626ded8628a2\",\n        \"urlId\": \"sim-STANDARD\"\n      },\n      {\n        \"accountType\": \"REPORT\",\n        \"userName\": \"pmsvc\",\n        \"password\": \"ee3d0fe910db44ba4952dc6ac2dff8cc88c3e8f8de364604a3befc88836f9931\",\n        \"urlId\": \"sim-REPORT\"\n      }\n    ]\n  },\n  \"serviceInfo\": {\n    \"url\": \"http://localhost:6091\",\n    \"timeout\": {\n      \"length\": 20,\n      \"unit\": \"seconds\"\n    }\n  }\n} "
-            },
-            "description": ""
-          },
-          "response": []
         }
       ]
     },
@@ -847,87 +826,6 @@
       "description": "",
       "item": [
         {
-          "_postman_id": "e4609da9-3372-725c-59af-82a82cdc927a",
-          "name": "Help Capture with New CC",
-          "request": {
-            "url": "{{url}}/captureMeansOfPayment/help",
-            "method": "GET",
-            "header": [
-              {
-                "key": "Content-Type",
-                "value": "application/json",
-                "description": ""
-              }
-            ],
-            "body": {},
-            "description": ""
-          },
-          "response": [
-            {
-              "id": "58c39e16-09df-6350-8f17-e13423b513bb",
-              "name": "capture-reject",
-              "originalRequest": {
-                "url": "{{url}}/captureMeansOfPayment/help",
-                "method": "GET",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json",
-                    "description": ""
-                  }
-                ],
-                "body": {},
-                "description": ""
-              },
-              "status": "OK",
-              "code": 200,
-              "_postman_previewlanguage": "javascript",
-              "_postman_previewtype": "html",
-              "header": [
-                {
-                  "name": "Content-Length",
-                  "key": "Content-Length",
-                  "value": "184",
-                  "description": ""
-                },
-                {
-                  "name": "Content-Type",
-                  "key": "Content-Type",
-                  "value": "application/json; charset=UTF-8",
-                  "description": ""
-                },
-                {
-                  "name": "Date",
-                  "key": "Date",
-                  "value": "Wed, 05 Nov 2014 10:31:44 GMT",
-                  "description": ""
-                },
-                {
-                  "name": "Server",
-                  "key": "Server",
-                  "value": "spray-can/1.2.2-20140526",
-                  "description": ""
-                },
-                {
-                  "name": "X-Internal-Tx-Ref",
-                  "key": "X-Internal-Tx-Ref",
-                  "value": "b094328613584aca",
-                  "description": ""
-                },
-                {
-                  "name": "X-User-Tx-Ref",
-                  "key": "X-User-Tx-Ref",
-                  "value": "",
-                  "description": ""
-                }
-              ],
-              "cookie": [],
-              "responseTime": "2936",
-              "body": "{\n  \"status\": \"REJECT\",\n  \"reconciliationId\": \"1442eeac-27ee-4ba5-bb36-0cd2b78f5852\",\n  \"providerMessage\": \"The order is rejected by Decision Manager.\",\n  \"providerReasonCode\": \"481\"\n}"
-            }
-          ]
-        },
-        {
           "_postman_id": "6bc267c7-1f27-294f-6284-78157220eac9",
           "name": "Capture with new CC",
           "request": {
@@ -1006,6 +904,74 @@
                   "key": "X-User-Tx-Ref",
                   "value": "",
                   "description": ""
+                }
+              ],
+              "cookie": [],
+              "responseTime": "2936",
+              "body": "{\n  \"status\": \"REJECT\",\n  \"reconciliationId\": \"1442eeac-27ee-4ba5-bb36-0cd2b78f5852\",\n  \"providerMessage\": \"The order is rejected by Decision Manager.\",\n  \"providerReasonCode\": \"481\"\n}"
+            }
+          ]
+        },
+        {
+          "_postman_id": "6f9bd8de-d18d-ca11-11ad-6624694bde4d",
+          "name": "Help Capture with New CC copy",
+          "request": {
+            "url": "{{url}}/captureMeansOfPayment/help",
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              }
+            ],
+            "body": {},
+            "description": ""
+          },
+          "response": [
+            {
+              "id": "49a5cbdf-b555-0bde-26b8-0b7778d89c24",
+              "name": "capture-reject",
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "javascript",
+              "_postman_previewtype": "html",
+              "header": [
+                {
+                  "description": "",
+                  "key": "Content-Length",
+                  "name": "Content-Length",
+                  "value": "184"
+                },
+                {
+                  "description": "",
+                  "key": "Content-Type",
+                  "name": "Content-Type",
+                  "value": "application/json; charset=UTF-8"
+                },
+                {
+                  "description": "",
+                  "key": "Date",
+                  "name": "Date",
+                  "value": "Wed, 05 Nov 2014 10:31:44 GMT"
+                },
+                {
+                  "description": "",
+                  "key": "Server",
+                  "name": "Server",
+                  "value": "spray-can/1.2.2-20140526"
+                },
+                {
+                  "description": "",
+                  "key": "X-Internal-Tx-Ref",
+                  "name": "X-Internal-Tx-Ref",
+                  "value": "b094328613584aca"
+                },
+                {
+                  "description": "",
+                  "key": "X-User-Tx-Ref",
+                  "name": "X-User-Tx-Ref",
+                  "value": ""
                 }
               ],
               "cookie": [],
