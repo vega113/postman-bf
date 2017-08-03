@@ -2897,6 +2897,27 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "78674e3a-ef7f-19de-ef30-643790e69deb",
+          "name": "tokenize credit card copy copy",
+          "request": {
+            "url": "{{tokenizer_exposed}}/payment-tokens?ticket=eyJhbGciOiJFUzI1NiJ9.eyJleHAiOjE0OTk2OTc4NTUsImp0aSI6InZOZG1kTFIxZmtZIiwiaWF0IjoxNDk5NjkwNjU1LCJtYWwiOiIxMDAifQ.lNFFmBO29moTUsgiJyYh2WI0ht790XCH7c5O97M_XCvk2Ez-cCPUNu6Xrkvo3LQ36NOFzD5rr5uUXH7TGxIKxw",
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": " {\n    \"vendor\": \"Visa\",\n    \"cardNumber\": \"4111111111111111\",\n    \"expirationMonth\": 2,\n    \"expirationYear\": 2019,\n    \"cvn\": \"123\"\n}"
+            },
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
