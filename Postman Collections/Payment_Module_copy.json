@@ -979,6 +979,24 @@
               "body": "{\n  \"status\": \"REJECT\",\n  \"reconciliationId\": \"1442eeac-27ee-4ba5-bb36-0cd2b78f5852\",\n  \"providerMessage\": \"The order is rejected by Decision Manager.\",\n  \"providerReasonCode\": \"481\"\n}"
             }
           ]
+        },
+        {
+          "_postman_id": "5e19cff6-5cb0-e7c9-19ff-eaa88636123a",
+          "name": "Help Capture with New CC",
+          "request": {
+            "url": "{{url}}/captureMeansOfPayment/help",
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              }
+            ],
+            "body": {},
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
