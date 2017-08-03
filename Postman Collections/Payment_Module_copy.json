@@ -826,6 +826,87 @@
       "description": "",
       "item": [
         {
+          "_postman_id": "e4609da9-3372-725c-59af-82a82cdc927a",
+          "name": "Help Capture with New CC",
+          "request": {
+            "url": "{{url}}/captureMeansOfPayment/help",
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              }
+            ],
+            "body": {},
+            "description": ""
+          },
+          "response": [
+            {
+              "id": "58c39e16-09df-6350-8f17-e13423b513bb",
+              "name": "capture-reject",
+              "originalRequest": {
+                "url": "{{url}}/captureMeansOfPayment/help",
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  }
+                ],
+                "body": {},
+                "description": ""
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "javascript",
+              "_postman_previewtype": "html",
+              "header": [
+                {
+                  "name": "Content-Length",
+                  "key": "Content-Length",
+                  "value": "184",
+                  "description": ""
+                },
+                {
+                  "name": "Content-Type",
+                  "key": "Content-Type",
+                  "value": "application/json; charset=UTF-8",
+                  "description": ""
+                },
+                {
+                  "name": "Date",
+                  "key": "Date",
+                  "value": "Wed, 05 Nov 2014 10:31:44 GMT",
+                  "description": ""
+                },
+                {
+                  "name": "Server",
+                  "key": "Server",
+                  "value": "spray-can/1.2.2-20140526",
+                  "description": ""
+                },
+                {
+                  "name": "X-Internal-Tx-Ref",
+                  "key": "X-Internal-Tx-Ref",
+                  "value": "b094328613584aca",
+                  "description": ""
+                },
+                {
+                  "name": "X-User-Tx-Ref",
+                  "key": "X-User-Tx-Ref",
+                  "value": "",
+                  "description": ""
+                }
+              ],
+              "cookie": [],
+              "responseTime": "2936",
+              "body": "{\n  \"status\": \"REJECT\",\n  \"reconciliationId\": \"1442eeac-27ee-4ba5-bb36-0cd2b78f5852\",\n  \"providerMessage\": \"The order is rejected by Decision Manager.\",\n  \"providerReasonCode\": \"481\"\n}"
+            }
+          ]
+        },
+        {
           "_postman_id": "6bc267c7-1f27-294f-6284-78157220eac9",
           "name": "Capture with new CC",
           "request": {
@@ -928,57 +1009,7 @@
             "body": {},
             "description": ""
           },
-          "response": [
-            {
-              "id": "49a5cbdf-b555-0bde-26b8-0b7778d89c24",
-              "name": "capture-reject",
-              "status": "OK",
-              "code": 200,
-              "_postman_previewlanguage": "javascript",
-              "_postman_previewtype": "html",
-              "header": [
-                {
-                  "description": "",
-                  "key": "Content-Length",
-                  "name": "Content-Length",
-                  "value": "184"
-                },
-                {
-                  "description": "",
-                  "key": "Content-Type",
-                  "name": "Content-Type",
-                  "value": "application/json; charset=UTF-8"
-                },
-                {
-                  "description": "",
-                  "key": "Date",
-                  "name": "Date",
-                  "value": "Wed, 05 Nov 2014 10:31:44 GMT"
-                },
-                {
-                  "description": "",
-                  "key": "Server",
-                  "name": "Server",
-                  "value": "spray-can/1.2.2-20140526"
-                },
-                {
-                  "description": "",
-                  "key": "X-Internal-Tx-Ref",
-                  "name": "X-Internal-Tx-Ref",
-                  "value": "b094328613584aca"
-                },
-                {
-                  "description": "",
-                  "key": "X-User-Tx-Ref",
-                  "name": "X-User-Tx-Ref",
-                  "value": ""
-                }
-              ],
-              "cookie": [],
-              "responseTime": "2936",
-              "body": "{\n  \"status\": \"REJECT\",\n  \"reconciliationId\": \"1442eeac-27ee-4ba5-bb36-0cd2b78f5852\",\n  \"providerMessage\": \"The order is rejected by Decision Manager.\",\n  \"providerReasonCode\": \"481\"\n}"
-            }
-          ]
+          "response": []
         }
       ]
     },
