@@ -2103,6 +2103,27 @@
           "response": []
         },
         {
+          "_postman_id": "dea3e7b3-66e0-550e-baab-4cdb70d52acd",
+          "name": "put smart configuration copy",
+          "request": {
+            "url": "{{pmconfig}}/config/smart-routing-config",
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"data\": {\n    \"routing\": [\n      {\n        \"entityId\": \"BF-USA\",\n        \"accountId\": \"e4x_test_usd\",\n        \"paymentMethodId\": \"Visa\",\n        \"binCountry\": \"FR\",\n        \"currency\": \"EUR\",\n        \"group\": \"CS\"\n      },\n      {\n        \"entityId\": \"BF-USA\",\n        \"accountId\": \"e4x_test_cad\",\n        \"paymentMethodId\": \"Visa\",\n        \"binCountry\": \"CA\",\n        \"currency\": \"CAD\",\n        \"group\": \"CS\"\n      },\n      {\n        \"entityId\": \"BF-USA\",\n        \"accountId\": \"e4x_test_cad\",\n        \"paymentMethodId\": \"ALL\",\n        \"binCountry\": \"US\",\n        \"currency\": \"USD\",\n        \"group\": \"CS\"\n      },\n      {\n        \"accountId\": \"e4x_test_cad2\",\n        \"paymentMethodId\": \"Visa\",\n        \"binCountry\": \"CA\",\n        \"currency\": \"CAD\",\n        \"group\": \"CS\"\n      },\n      {\n        \"entityId\": \"BF-USA\",\n        \"accountId\": \"e4x_test_cad\",\n        \"paymentMethodId\": \"Visa\",\n        \"currency\": \"USD\",\n        \"group\": \"CS\"\n      }\n    ]\n  },\n  \"version\": 12862489237796245\n}"
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
           "_postman_id": "277a27da-ab84-cd3e-7c2c-14cdf170fb6c",
           "name": "find account info smart routing key",
           "request": {
