@@ -2106,8 +2106,8 @@
           "_postman_id": "dea3e7b3-66e0-550e-baab-4cdb70d52acd",
           "name": "migrate smart config",
           "request": {
-            "url": "{{pmconfig}}/config/smart-routing-config",
-            "method": "PUT",
+            "url": "{{pmconfig}}/config/migrateSmartConfiguration",
+            "method": "POST",
             "header": [
               {
                 "key": "Content-Type",
