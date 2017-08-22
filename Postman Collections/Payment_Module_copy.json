@@ -2164,18 +2164,6 @@
             "description": ""
           },
           "response": []
-        },
-        {
-          "_postman_id": "b7c03e77-4bc2-fefb-3e74-f6f4838f1ee6",
-          "name": "get entity provider configuration copy",
-          "request": {
-            "url": "{{pmconfig}}/config/entity-providers-config",
-            "method": "GET",
-            "header": [],
-            "body": {},
-            "description": ""
-          },
-          "response": []
         }
       ]
     },
