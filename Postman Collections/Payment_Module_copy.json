@@ -1891,6 +1891,18 @@
           "response": []
         },
         {
+          "_postman_id": "b7c03e77-4bc2-fefb-3e74-f6f4838f1ee6",
+          "name": "get entity provider configuration copy",
+          "request": {
+            "url": "{{pmconfig}}/config/entity-providers-config",
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "description": ""
+          },
+          "response": []
+        },
+        {
           "_postman_id": "8548282b-2925-d6f3-d9bb-eb7c532e928d",
           "name": "put entity provider configuration",
           "request": {
