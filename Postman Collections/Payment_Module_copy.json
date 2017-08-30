@@ -1861,7 +1861,7 @@
           "_postman_id": "1f822502-7f67-50c8-f310-d1677b988ff4",
           "name": "find account id",
           "request": {
-            "url": "{{pmconfig}}/config/account",
+            "url": "{{pmconfig}}/simulator/config/account",
             "method": "POST",
             "header": [
               {
