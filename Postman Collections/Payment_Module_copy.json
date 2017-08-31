@@ -2865,7 +2865,7 @@
           "_postman_id": "03eda9e9-2e05-6fad-4bd1-6a23f04a78ff",
           "name": "tokenize credit card copy",
           "request": {
-            "url": "http://tokenizerdev-273062684.us-east-1.elb.amazonaws.com:8091/payment-tokens",
+            "url": "http://localhost:9090/payment-tokens",
             "method": "POST",
             "header": [
               {
