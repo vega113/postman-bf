@@ -2865,7 +2865,7 @@
           "_postman_id": "03eda9e9-2e05-6fad-4bd1-6a23f04a78ff",
           "name": "tokenize credit card copy",
           "request": {
-            "url": "http://localhost:9090/payment-tokens",
+            "url": "{{tokenizer_internal}}/payment-tokens",
             "method": "POST",
             "header": [
               {
@@ -2876,7 +2876,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": " {\n    \"vendor\": \"Visa\",\n    \"cardNumber\": \"4111111111111111\",\n    \"expirationMonth\": 2,\n    \"expirationYear\": 2017,\n    \"cvn\": \"123\"\n}"
+              "raw": " {\n    \"vendor\": \"Visa\",\n    \"cardNumber\": \"4111111111111111\",\n    \"expirationMonth\": 10,\n    \"expirationYear\": 2017,\n    \"cvn\": \"123\"\n}"
             },
             "description": ""
           },
