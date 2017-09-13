@@ -1801,7 +1801,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"orderReferenceCode\": \"test_invalid_tsosdken_15\",\n    \"transactionDetails\": {\n      \"uniqueId\": \"jdskajdalsewe73273189\",\n      \"currency\": \"CAD\",\n      \"amount\": 65.5,\n      \"merchantDescriptor\": \"buy from me more!\",\n      \"merchantDescriptorContact\": \"34434343434\"\n    }\n  }"
+              "raw": "{\n\"orderReferenceCode\":\"orderRefCode:1505287697402\",\n\"transactionDetails\": {\n  \"uniqueId\":\"123456784\",\n  \"amount\": 69.00,\n  \"currency\":\"CAD\" ,\n  \"merchantDescriptor\" : \"BF*AutoMerch1U PPS\",\n  \"merchantDescriptorContact\" : \"0777777777\"\n}\n}"
             },
             "description": ""
           },
