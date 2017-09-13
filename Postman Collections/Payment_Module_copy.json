@@ -735,7 +735,7 @@
           "_postman_id": "d17fde2f-8bd4-4a38-5a88-2adb6502fea6",
           "name": "Capture",
           "request": {
-            "url": "{{url}}:{{internal-port}}/capture",
+            "url": "{{pmsvc}}/capture",
             "method": "POST",
             "header": [
               {
@@ -746,7 +746,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"orderReferenceCode\": \"e4x200wsdsasasdsdsweweewedasasdsdfd\",\n    \"transactionDetails\": {\n      \"uniqueId\": \"jdskajdalsewe73273189\",\n      \"currency\": \"CAD\",\n      \"amount\": 65.5,\n      \"merchantDescriptor\": \"buy from me more!\",\n      \"merchantDescriptorContact\": \"34434343434\"\n    }\n  }"
+              "raw": "{\n    \"orderReferenceCode\": \"test_invalid_tsosdken_2sd2ess11121\",\n    \"transactionDetails\": {\n      \"uniqueId\": \"jdskajdalsewe73273189\",\n      \"currency\": \"CAD\",\n      \"amount\": 65.5,\n      \"merchantDescriptor\": \"buy from me more!\",\n      \"merchantDescriptorContact\": \"34434343434\"\n    }\n  }"
             },
             "description": ""
           },
@@ -755,7 +755,7 @@
               "id": "eb1d3a84-7d67-1c5b-339a-4ff98130b8a0",
               "name": "capture-reject",
               "originalRequest": {
-                "url": "{{url}}:{{internal-port}}/capture",
+                "url": "{{pmsvc}}/capture",
                 "method": "POST",
                 "header": [
                   {
@@ -766,7 +766,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n    \"orderReferenceCode\": \"e4x200wsdsasasdsdsweweewedasasdsdfd\",\n    \"transactionDetails\": {\n      \"uniqueId\": \"jdskajdalsewe73273189\",\n      \"currency\": \"CAD\",\n      \"amount\": 65.5,\n      \"merchantDescriptor\": \"buy from me more!\",\n      \"merchantDescriptorContact\": \"34434343434\"\n    }\n  }"
+                  "raw": "{\n    \"orderReferenceCode\": \"test_invalid_tsosdken_2sd2ess11121\",\n    \"transactionDetails\": {\n      \"uniqueId\": \"jdskajdalsewe73273189\",\n      \"currency\": \"CAD\",\n      \"amount\": 65.5,\n      \"merchantDescriptor\": \"buy from me more!\",\n      \"merchantDescriptorContact\": \"34434343434\"\n    }\n  }"
                 },
                 "description": ""
               },
