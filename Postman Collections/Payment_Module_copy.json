@@ -2430,7 +2430,7 @@
           "_postman_id": "6d41efa8-083e-c093-f36e-e23e6d9cff46",
           "name": "Sim-AuthWithFraud enroll",
           "request": {
-            "url": "{{url}}:{{simport}}/simulator-fraud",
+            "url": "https://cssim-integration.bfretail.pitneycloud.com/simulator-fraud",
             "method": "POST",
             "header": [
               {
