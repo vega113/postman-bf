@@ -2055,7 +2055,97 @@
             },
             "description": ""
           },
-          "response": []
+          "response": [
+            {
+              "id": "a8fbb59f-3bc5-74fb-f526-d5a1f760884c",
+              "name": "route: authorize with fraud",
+              "originalRequest": {
+                "url": "{{pmconfig}}/simulator/routing/payment-authorize-with-fraud",
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": "",
+                    "warning": ""
+                  },
+                  {
+                    "key": "X-User-Tx-Ref",
+                    "value": "7623762jhgjhsdwdwerrerdfdfd",
+                    "description": "",
+                    "warning": ""
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{ \n   \"meansOfPayment\": {\n     \"dataType\": \"TOKEN\",\n     \"data\": {\n       \"token\": \"eyJleHBZZWFyIjoyMDIyLCJtYWMiOiIxOkhjQnpfZEdVNG1aVjcwTHA5YzB5andZRmU4cVpZUE1hZ0ttZjhrdlVzLUkiLCJ0aW1lc3RhbXAiOiIyMDE3LTA5LTE5IDA3OjA0OjM0Ljk4MiIsImRhdGEiOiJBRm5Bd1lMcVA1NjVYWExKeTdGVlFUQUxJU0JxIiwiY2FyZE51bVN1ZmZpeCI6IjExMTEiLCJleHBNb250aCI6MiwiYmluQ29kZSI6IjQxMTExMSIsInZlbmRvciI6IlZpc2EiLCJpc3N1ZWRCeSI6ImNwcCJ9\"\n     }\n   },\n \"orderDetails\": \n { \n    \"orderReferenceCode\":\"orderRefCode:15052876dwsd97402111\", \n    \"basket\":\n    { \"items\":\n     [ \n      { \n        \"productName\":\"item1\", \n        \"sku\":\"sku1\", \n        \"productCode\":\"2283-sku1\", \n        \"price\":12.10, \n        \"quantity\":1 \n      }, \n      {\n        \"productName\":\"item2\", \n        \"sku\":\"sku2\", \n        \"productCode\":\"2283-sku2\", \n        \"price\":56.90, \n        \"quantity\":1 \n      } \n     ], \n     \"totalAmount\":69.00, \n     \"currency\":\"CAD\" }, \n    \"billingAddress\":\n    { \n     \"title\":\"Mr.\", \n     \"firstName\":\"Eyal\", \n     \"middleName\":\"middleEyal\", \n     \"lastName\":\"1:21\", \n     \"suffix\":\"son of dady\", \n     \"line1\":\"haneviim 54\", \n     \"line2\":\"Line2\", \n     \"city\":\"Bat Yam\", \n     \"postalCode\":\"94043\", \n     \"state\":\"IL\", \n     \"country\":\"US\", \n     \"phone\":\"123456789100\" \n    }, \n    \"shippingAddress\":\n    { \n      \"title\":\"Mr.\", \n     \"firstName\":\"John\", \n     \"middleName\":\"middleJohn\", \n     \"lastName\":\"DoeRsd\", \n     \"suffix\":\"son of Johny jon\" , \n     \"line1\":\"1295 Charleston Road\", \n     \"line2\":\"Line2\", \n     \"city\":\"Mountain View\", \n     \"postalCode\":\"94043\", \n     \"state\":\"CA\", \n     \"country\":\"US\", \n     \"phone\":\"987654321000\" \n    }, \n    \"shopperInfo\":\n    { \n     \"email\":\"null@cybersource.com\", \n     \"hostname\":\"hackers.com\", \n     \"httpBrowserCookiesAccepted\":null, \n     \"httpBrowserType\":null, \n     \"ipNetworkAddress\":\"null@cybersource.com\", \n     \"ipAddress\":\"10.7.111.111\" \n    } \n }, \n \"customData\":\n { \n   \"merchant\": \"BF*AutoMerch1 PPS_\",\n   \"billingAlternativePhoneNum\": \"5555-6666_\",\n   \"shippingPrimaryPhoneNum\": \"5555-6666_\",\n   \"shippingAlternativePhoneNum\": \"5555-6666_\",\n   \"shippingEmailAddress\": \"john.h.smith@mail.com_\",\n   \"billingEmailAddress\": \"john.h.smith@mail.com_\",\n   \"e4xShippingMethod\": \"Express_\",\n   \"totalOrderUs\": 400,\n   \"merchandiseUS\":500, \n   \"orderTotalLocalCurrency\": \"stam1\",\n   \"promoCodeUsed\": \"stam2\",\n   \"paymentType\": \"stam3\",\n   \"processorAccountId\": \"stam4\",\n   \"authResult\": \"stam5\",\n   \"refusalReason\": \"stam6\",\n   \"authResponseDescription\": \"stam7\",\n   \"processorReferenceNumber\": \"stam8\",\n   \"field18\": \"stam9\",\n   \"field19\": \"stam10\"\n \n },\n \"routingDetails\": {\n     \"paymentMethodId\": \"Yuri\",\n     \"entityId\": \"BF-USA\",\n     \"currency\": \"CAD\",\n     \"versionId\": \"0\",\n     \"binCode\": \"123456\"\n   }\n }"
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "_postman_previewtype": "text",
+              "header": [
+                {
+                  "name": "content-length",
+                  "key": "content-length",
+                  "value": "304",
+                  "description": ""
+                },
+                {
+                  "name": "content-type",
+                  "key": "content-type",
+                  "value": "application/json; charset=UTF-8",
+                  "description": ""
+                },
+                {
+                  "name": "date",
+                  "key": "date",
+                  "value": "Tue, 19 Sep 2017 07:08:22 GMT",
+                  "description": ""
+                },
+                {
+                  "name": "machine-name",
+                  "key": "machine-name",
+                  "value": "523cfa39934b",
+                  "description": ""
+                },
+                {
+                  "name": "orig-machine-name",
+                  "key": "orig-machine-name",
+                  "value": "de76bd06de37",
+                  "description": ""
+                },
+                {
+                  "name": "server",
+                  "key": "server",
+                  "value": "spray-can/1.3.2",
+                  "description": ""
+                },
+                {
+                  "name": "status",
+                  "key": "status",
+                  "value": "200",
+                  "description": ""
+                },
+                {
+                  "name": "x-internal-tx-ref",
+                  "key": "x-internal-tx-ref",
+                  "value": "821fd35c81dc423a",
+                  "description": ""
+                },
+                {
+                  "name": "x-user-tx-ref",
+                  "key": "x-user-tx-ref",
+                  "value": "7623762jhgjhsdwdwerrerdfdfd",
+                  "description": ""
+                }
+              ],
+              "cookie": [],
+              "responseTime": "315",
+              "body": "{\n  \"providerReasonCode\": \"100\",\n  \"accountId\": \"e4x_test_cad\",\n  \"requestToken\": \"8d4c6168-b51d-4398-ae4e-ae7c185cb563\",\n  \"authorizationId\": \"831000\",\n  \"providerId\": \"CS-OLD\",\n  \"status\": \"ACCEPT\",\n  \"requestId\": \"a550822b-e4da-4d46-8c69-926ed7034e9f\",\n  \"providerMessage\": \"Successful transaction.\"\n}"
+            }
+          ]
         },
         {
           "_postman_id": "5843001d-fef4-4cff-8a15-42c03a4682f9",
@@ -2148,7 +2238,7 @@
           "_postman_id": "884a3e68-a492-1bdf-3c25-d55dd75bcdfe",
           "name": "route: Reverse",
           "request": {
-            "url": "{{pmconfig}}/reverseAuth",
+            "url": "{{pmconfig}}/simulator/routing/reverseAuth",
             "method": "POST",
             "header": [
               {
@@ -2159,7 +2249,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": " {\n    \"orderReferenceCode\": \"e4x200wsdsasassqwqwqwdsdsdsdsdsddasassdsdsddsdfd\",\n    \"authorizationRequestId\" : \"4333306076015000001519\",\n    \"requestId\": \"85ba9df4-7ba2-4c4c-9d47-a0ddbfe716f1\",\n    \"requestToken\": \"Ahj/7wSR1dFnipeX1zfeNjK9edUoQY0+jabx0/jqpvtZAU/jqpvtZ0gbr0UIoZNJMq6PSMtfgTkdXRZ4qXl9c33gM3yo\",\n    \"accountId\": \"e4x_test_cad\",\n    \"providerid\": \"SIM\"\n  }"
+              "raw": " {\n    \"orderReferenceCode\": \"orderRefCode:150528769d74021\",\n    \"authorizationRequestId\" : \"fe191855-fcac-4e54-983d-39a7a3502e10\",\n    \"requestId\": \"f1863ac5-b277-4176-912a-b78efb2f78da\",\n    \"requestToken\": \"85b5130b-0118-40c2-be47-47c55f576bb6\"\n  }"
             },
             "description": ""
           },
