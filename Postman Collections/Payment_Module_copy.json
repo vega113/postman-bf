@@ -1991,7 +1991,7 @@
         },
         {
           "_postman_id": "c125c679-fbb0-0407-9122-4fa6e7a839d1",
-          "name": "get countries copy",
+          "name": "put countries",
           "request": {
             "url": "{{url}}:8097/config/countries",
             "method": "GET",
