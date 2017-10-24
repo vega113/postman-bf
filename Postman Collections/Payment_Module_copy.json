@@ -2254,6 +2254,18 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "c125c679-fbb0-0407-9122-4fa6e7a839d1",
+          "name": "get countries copy",
+          "request": {
+            "url": "{{url}}:8097/config/countries",
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
