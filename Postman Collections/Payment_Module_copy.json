@@ -1981,7 +1981,7 @@
           "_postman_id": "46812371-7d38-f12a-95bf-dd876bc7cda6",
           "name": "get countries",
           "request": {
-            "url": "{{url}}:8097/config/countries",
+            "url": "{{pmconfig}}/config/countries",
             "method": "GET",
             "header": [],
             "body": {},
