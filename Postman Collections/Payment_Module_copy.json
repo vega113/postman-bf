@@ -2029,12 +2029,12 @@
               },
               {
                 "key": "X-User-Tx-Ref",
-                "value": "7623762jhgjhsdwdwerrerdfdfd"
+                "value": "testutf123467"
               }
             ],
             "body": {
               "mode": "raw",
-              "raw": "{ \n   \"meansOfPayment\": {\n     \"dataType\": \"TOKEN\",\n     \"data\": {\n       \"token\": \"eyJleHBZZWFyIjoyMDIyLCJtYWMiOiIxOkhjQnpfZEdVNG1aVjcwTHA5YzB5andZRmU4cVpZUE1hZ0ttZjhrdlVzLUkiLCJ0aW1lc3RhbXAiOiIyMDE3LTA5LTE5IDA3OjA0OjM0Ljk4MiIsImRhdGEiOiJBRm5Bd1lMcVA1NjVYWExKeTdGVlFUQUxJU0JxIiwiY2FyZE51bVN1ZmZpeCI6IjExMTEiLCJleHBNb250aCI6MiwiYmluQ29kZSI6IjQxMTExMSIsInZlbmRvciI6IlZpc2EiLCJpc3N1ZWRCeSI6ImNwcCJ9\"\n     }\n   },\n \"orderDetails\": \n { \n    \"orderReferenceCode\":\"ordedfdffdsdscsdsdsdswdsd\", \n    \"basket\":\n    { \"items\":\n     [ \n      { \n        \"productName\":\"`}L\", \n        \"sku\":\"sku1\", \n        \"productCode\":\"2283-sku1\", \n        \"price\":12.10, \n        \"quantity\":1 \n      }, \n      {\n        \"productName\":\"item2\", \n        \"sku\":\"sku2\", \n        \"productCode\":\"2283-sku2\", \n        \"price\":56.90, \n        \"quantity\":1 \n      } \n     ], \n     \"totalAmount\":69.00, \n     \"currency\":\"CAD\" }, \n    \"billingAddress\":\n    { \n     \"title\":\"Mr.\", \n     \"firstName\":\"Eyal\", \n     \"middleName\":\"middleEyal\", \n     \"lastName\":\"GHXY`adeno}~\", \n     \"suffix\":\"son of dady\", \n     \"line1\":\"haneviim 54\", \n     \"line2\":\"Line2\", \n     \"city\":\"Bat Yam\", \n     \"postalCode\":\"94043\", \n     \"state\":\"IL\", \n     \"country\":\"US\", \n     \"phone\":\"123456789100\" \n    }, \n    \"shippingAddress\":\n    { \n      \"title\":\"Mr.\", \n     \"firstName\":\"John\", \n     \"middleName\":\"middleJohn\", \n     \"lastName\":\"DoeRsd\", \n     \"suffix\":\"son of Johny jon\" , \n     \"line1\":\"1295 Charleston Road\", \n     \"line2\":\"Line2\", \n     \"city\":\"Mountain View\", \n     \"postalCode\":\"94043\", \n     \"state\":\"CA\", \n     \"country\":\"US\", \n     \"phone\":\"987654321000\" \n    }, \n    \"shopperInfo\":\n    { \n     \"email\":\"null@cybersource.com\", \n     \"hostname\":\"hackers.com\", \n     \"httpBrowserCookiesAccepted\":null, \n     \"httpBrowserType\":null, \n     \"ipNetworkAddress\":\"null@cybersource.com\", \n     \"ipAddress\":\"10.7.111.111\" \n    } \n }, \n \"customData\":\n { \n   \"merchant\": \"BF*AutoMerch1 PPS_\",\n   \"billingAlternativePhoneNum\": \"5555-6666_\",\n   \"shippingPrimaryPhoneNum\": \"5555-6666_\",\n   \"shippingAlternativePhoneNum\": \"5555-6666_\",\n   \"shippingEmailAddress\": \"john.h.smith@mail.com_\",\n   \"billingEmailAddress\": \"john.h.smith@mail.com_\",\n   \"e4xShippingMethod\": \"Express_\",\n   \"totalOrderUs\": 400,\n   \"merchandiseUS\":500, \n   \"orderTotalLocalCurrency\": \"stam1\",\n   \"promoCodeUsed\": \"stam2\",\n   \"paymentType\": \"stam3\",\n   \"processorAccountId\": \"stam4\",\n   \"authResult\": \"stam5\",\n   \"refusalReason\": \"stam6\",\n   \"authResponseDescription\": \"stam7\",\n   \"processorReferenceNumber\": \"stam8\",\n   \"field18\": \"stam9\",\n   \"field19\": \"stam10\"\n \n },\n \"routingDetails\": {\n     \"paymentMethodId\": \"Visa\",\n     \"entityId\": \"BF-USA\",\n     \"currency\": \"USD\"\n   }\n }"
+              "raw": "{ \n   \"meansOfPayment\": {\n     \"dataType\": \"TOKEN\",\n     \"data\": {\n       \"token\": \"eyJleHBZZWFyIjoyMDIyLCJtYWMiOiIxOkhjQnpfZEdVNG1aVjcwTHA5YzB5andZRmU4cVpZUE1hZ0ttZjhrdlVzLUkiLCJ0aW1lc3RhbXAiOiIyMDE3LTA5LTE5IDA3OjA0OjM0Ljk4MiIsImRhdGEiOiJBRm5Bd1lMcVA1NjVYWExKeTdGVlFUQUxJU0JxIiwiY2FyZE51bVN1ZmZpeCI6IjExMTEiLCJleHBNb250aCI6MiwiYmluQ29kZSI6IjQxMTExMSIsInZlbmRvciI6IlZpc2EiLCJpc3N1ZWRCeSI6ImNwcCJ9\"\n     }\n   },\n \"orderDetails\": \n { \n    \"orderReferenceCode\":\"orsdsddwwsdwdsdsdsdsdsddeswdsd\", \n    \"basket\":\n    { \"items\":\n     [ \n      { \n        \"productName\":\"`}L\", \n        \"sku\":\"sku1\", \n        \"productCode\":\"2283-sku1\", \n        \"price\":12.10, \n        \"quantity\":1 \n      }, \n      {\n        \"productName\":\"item2\", \n        \"sku\":\"sku2\", \n        \"productCode\":\"2283-sku2\", \n        \"price\":56.90, \n        \"quantity\":1 \n      } \n     ], \n     \"totalAmount\":69.00, \n     \"currency\":\"CAD\" }, \n    \"billingAddress\":\n    { \n     \"title\":\"Mr.\", \n     \"firstName\":\"sdsd\", \n     \"middleName\":\"middleEyal\", \n     \"lastName\":\"REJECT\", \n     \"suffix\":\"son of dady\", \n     \"line1\":\"haneviim 54\", \n     \"line2\":\"Line2\", \n     \"city\":\"Bat Yam\", \n     \"postalCode\":\"sdsd\", \n     \"state\":\"IL\", \n     \"country\":\"IL\", \n     \"phone\":\"123456789100\" \n    }, \n    \"shippingAddress\":\n    { \n      \"title\":\"Mr.\", \n     \"firstName\":\"\", \n     \"middleName\":\"middleJohn\", \n     \"lastName\":\"DoeRsd\", \n     \"suffix\":\"son of Johny jon\" , \n     \"line1\":\"1295 Charleston Road\", \n     \"line2\":\"Line2\", \n     \"city\":\"Mountain View\", \n     \"postalCode\":\"94043\", \n     \"state\":\"CA\", \n     \"country\":\"US\", \n     \"phone\":\"987654321000\" \n    }, \n    \"shopperInfo\":\n    { \n     \"email\":\"null@cybersource.com\", \n     \"hostname\":\"hackers.com\", \n     \"httpBrowserCookiesAccepted\":null, \n     \"httpBrowserType\":null, \n     \"ipNetworkAddress\":\"null@cybersource.com\", \n     \"ipAddress\":\"10.7.111.111\" \n    } \n }, \n \"customData\":\n { \n   \"merchant\": \"BF*AutoMerch1 PPS_\",\n   \"billingAlternativePhoneNum\": \"5555-6666_\",\n   \"shippingPrimaryPhoneNum\": \"5555-6666_\",\n   \"shippingAlternativePhoneNum\": \"5555-6666_\",\n   \"shippingEmailAddress\": \"john.h.smith@mail.com_\",\n   \"billingEmailAddress\": \"john.h.smith@mail.com_\",\n   \"e4xShippingMethod\": \"Express_\",\n   \"totalOrderUs\": 400,\n   \"merchandiseUS\":500, \n   \"orderTotalLocalCurrency\": \"stam1\",\n   \"promoCodeUsed\": \"stam2\",\n   \"paymentType\": \"stam3\",\n   \"processorAccountId\": \"stam4\",\n   \"authResult\": \"stam5\",\n   \"refusalReason\": \"stam6\",\n   \"authResponseDescription\": \"stam7\",\n   \"processorReferenceNumber\": \"stam8\",\n   \"field18\": \"stam9\",\n   \"field19\": \"stam10\"\n \n },\n \"routingDetails\": {\n     \"paymentMethodId\": \"Visa\",\n     \"versionId\": \"2283\",\n     \"currency\": \"CAD\",\n     \"binCode\" : \"375513\"\n   }\n }"
             },
             "url": "{{pmconfig}}/routing/payment-authorize-with-fraud",
             "description": ""
@@ -2125,6 +2125,118 @@
               "cookie": [],
               "responseTime": "315",
               "body": "{\n  \"providerReasonCode\": \"100\",\n  \"accountId\": \"e4x_test_cad\",\n  \"requestToken\": \"8d4c6168-b51d-4398-ae4e-ae7c185cb563\",\n  \"authorizationId\": \"831000\",\n  \"providerId\": \"CS-OLD\",\n  \"status\": \"ACCEPT\",\n  \"requestId\": \"a550822b-e4da-4d46-8c69-926ed7034e9f\",\n  \"providerMessage\": \"Successful transaction.\"\n}"
+            },
+            {
+              "id": "eaccc90d-e861-d89a-fa60-22a1c061546a",
+              "name": "route: authorize with fraud 0 worldpay",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json; charset=UTF-8"
+                  },
+                  {
+                    "key": "X-User-Tx-Ref",
+                    "value": "wptestutf123467"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{ \n   \"meansOfPayment\": {\n     \"dataType\": \"TOKEN\",\n     \"data\": {\n       \"token\": \"eyJleHBZZWFyIjoyMDIyLCJtYWMiOiIxOkhjQnpfZEdVNG1aVjcwTHA5YzB5andZRmU4cVpZUE1hZ0ttZjhrdlVzLUkiLCJ0aW1lc3RhbXAiOiIyMDE3LTA5LTE5IDA3OjA0OjM0Ljk4MiIsImRhdGEiOiJBRm5Bd1lMcVA1NjVYWExKeTdGVlFUQUxJU0JxIiwiY2FyZE51bVN1ZmZpeCI6IjExMTEiLCJleHBNb250aCI6MiwiYmluQ29kZSI6IjQxMTExMSIsInZlbmRvciI6IlZpc2EiLCJpc3N1ZWRCeSI6ImNwcCJ9\"\n     }\n   },\n \"orderDetails\": \n { \n    \"orderReferenceCode\":\"orsdsddwwsdwdsdsdsddeswdsd\", \n    \"basket\":\n    { \"items\":\n     [ \n      { \n        \"productName\":\"`}L\", \n        \"sku\":\"sku1\", \n        \"productCode\":\"2283-sku1\", \n        \"price\":12.10, \n        \"quantity\":1 \n      }, \n      {\n        \"productName\":\"item2\", \n        \"sku\":\"sku2\", \n        \"productCode\":\"2283-sku2\", \n        \"price\":56.90, \n        \"quantity\":1 \n      } \n     ], \n     \"totalAmount\":69.00, \n     \"currency\":\"CAD\" }, \n    \"billingAddress\":\n    { \n     \"title\":\"Mr.\", \n     \"firstName\":\"sdsd\", \n     \"middleName\":\"middleEyal\", \n     \"lastName\":\"REJECT\", \n     \"suffix\":\"son of dady\", \n     \"line1\":\"haneviim 54\", \n     \"line2\":\"Line2\", \n     \"city\":\"Bat Yam\", \n     \"postalCode\":\"sdsd\", \n     \"state\":\"IL\", \n     \"country\":\"XX\", \n     \"phone\":\"123456789100\" \n    }, \n    \"shippingAddress\":\n    { \n      \"title\":\"Mr.\", \n     \"firstName\":\"\", \n     \"middleName\":\"middleJohn\", \n     \"lastName\":\"DoeRsd\", \n     \"suffix\":\"son of Johny jon\" , \n     \"line1\":\"1295 Charleston Road\", \n     \"line2\":\"Line2\", \n     \"city\":\"Mountain View\", \n     \"postalCode\":\"94043\", \n     \"state\":\"CA\", \n     \"country\":\"US\", \n     \"phone\":\"987654321000\" \n    }, \n    \"shopperInfo\":\n    { \n     \"email\":\"null@cybersource.com\", \n     \"hostname\":\"hackers.com\", \n     \"httpBrowserCookiesAccepted\":null, \n     \"httpBrowserType\":null, \n     \"ipNetworkAddress\":\"null@cybersource.com\", \n     \"ipAddress\":\"10.7.111.111\" \n    } \n }, \n \"customData\":\n { \n   \"merchant\": \"BF*AutoMerch1 PPS_\",\n   \"billingAlternativePhoneNum\": \"5555-6666_\",\n   \"shippingPrimaryPhoneNum\": \"5555-6666_\",\n   \"shippingAlternativePhoneNum\": \"5555-6666_\",\n   \"shippingEmailAddress\": \"john.h.smith@mail.com_\",\n   \"billingEmailAddress\": \"john.h.smith@mail.com_\",\n   \"e4xShippingMethod\": \"Express_\",\n   \"totalOrderUs\": 400,\n   \"merchandiseUS\":500, \n   \"orderTotalLocalCurrency\": \"stam1\",\n   \"promoCodeUsed\": \"stam2\",\n   \"paymentType\": \"stam3\",\n   \"processorAccountId\": \"stam4\",\n   \"authResult\": \"stam5\",\n   \"refusalReason\": \"stam6\",\n   \"authResponseDescription\": \"stam7\",\n   \"processorReferenceNumber\": \"stam8\",\n   \"field18\": \"stam9\",\n   \"field19\": \"stam10\"\n \n },\n \"routingDetails\": {\n     \"paymentMethodId\": \"Visa\",\n     \"versionId\": \"2283\",\n     \"currency\": \"CAD\",\n     \"binCode\" : \"375513\"\n   }\n }"
+                },
+                "url": "{{pmconfig}}/routing/payment-authorize-with-fraud"
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Length",
+                  "value": "1984",
+                  "name": "Content-Length",
+                  "description": ""
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=UTF-8",
+                  "name": "Content-Type",
+                  "description": ""
+                },
+                {
+                  "key": "Date",
+                  "value": "Tue, 31 Oct 2017 11:32:45 GMT",
+                  "name": "Date",
+                  "description": ""
+                },
+                {
+                  "key": "Server",
+                  "value": "spray-can/1.3.2",
+                  "name": "Server",
+                  "description": ""
+                },
+                {
+                  "key": "Set-Cookie",
+                  "value": "AWSALB=N1ApsIbe7v6+0EVdyDPvRy2cx1cwBBQ5BI8CLuq/G9brAmOt4F04/HJjMJm5a8HO/JHIyB1d2gTNl1IU/3/0U04iCxh2cchd11wDy0ldFZZP2cYUZnQ2Jg82FMLI; Expires=Tue, 07 Nov 2017 11:26:36 GMT; Path=/",
+                  "name": "Set-Cookie",
+                  "description": ""
+                },
+                {
+                  "key": "X-Internal-Tx-Ref",
+                  "value": "e9180ee95025495a",
+                  "name": "X-Internal-Tx-Ref",
+                  "description": ""
+                },
+                {
+                  "key": "X-User-Tx-Ref",
+                  "value": "testutf123467",
+                  "name": "X-User-Tx-Ref",
+                  "description": ""
+                },
+                {
+                  "key": "machine-name",
+                  "value": "827729e97884",
+                  "name": "machine-name",
+                  "description": ""
+                },
+                {
+                  "key": "orig-machine-name",
+                  "value": "IS-YU002ZE-MLT",
+                  "name": "orig-machine-name",
+                  "description": ""
+                }
+              ],
+              "cookie": [
+                {
+                  "expires": "Thu Dec 24 2037 06:14:07 GMT+0000 (UTC)",
+                  "httpOnly": true,
+                  "domain": "localhost",
+                  "path": "/",
+                  "secure": false,
+                  "value": "0653C0B657D4BDBF723966EB1861EBBE",
+                  "key": "JSESSIONID"
+                },
+                {
+                  "expires": "Sat Dec 26 2037 03:14:07 GMT+0000 (UTC)",
+                  "httpOnly": false,
+                  "domain": "localhost",
+                  "path": "/",
+                  "secure": false,
+                  "value": "a2_e8eeb4f3-46f4-4a54-adc5-595eef9694fe",
+                  "key": "_op_aixPageId"
+                },
+                {
+                  "expires": "Tue Nov 07 2017 11:26:36 GMT+0000 (UTC)",
+                  "httpOnly": false,
+                  "domain": "localhost",
+                  "path": "/",
+                  "secure": false,
+                  "value": "N1ApsIbe7v6+0EVdyDPvRy2cx1cwBBQ5BI8CLuq/G9brAmOt4F04/HJjMJm5a8HO/JHIyB1d2gTNl1IU/3/0U04iCxh2cchd11wDy0ldFZZP2cYUZnQ2Jg82FMLI",
+                  "key": "AWSALB"
+                }
+              ],
+              "responseTime": "2180",
+              "body": "{\n  \"exception\": \"org.apache.ws.axis.security.WSDoAllSender.invoke(WSDoAllSender.java:117)\\norg.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:32)\\norg.apache.axis.SimpleChain.doVisiting(SimpleChain.java:118)\\norg.apache.axis.SimpleChain.invoke(SimpleChain.java:83)\\norg.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:32)\\norg.apache.axis.SimpleChain.doVisiting(SimpleChain.java:118)\\norg.apache.axis.SimpleChain.invoke(SimpleChain.java:83)\\norg.apache.axis.client.AxisClient.invoke(AxisClient.java:165)\\norg.apache.axis.client.Call.invokeEngine(Call.java:2784)\\norg.apache.axis.client.Call.invoke(Call.java:2767)\\norg.apache.axis.client.Call.invoke(Call.java:2443)\\norg.apache.axis.client.Call.invoke(Call.java:2366)\\norg.apache.axis.client.Call.invoke(Call.java:1812)\\ncom.cybersource.stub.ITransactionProcessorStub.runTransaction(ITransactionProcessorStub.java:1615)\\ncom.borderfree.payments.commons.services.cybersource.CybersourceGatewayDriver$$anonfun$sendRequest$1.apply(CybersourceGatewayDriver.scala:80)\\ncom.borderfree.payments.commons.services.cybersource.CybersourceGatewayDriver$$anonfun$sendRequest$1.apply(CybersourceGatewayDriver.scala:71)\\nscala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)\\nscala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)\\ncom.borderfree.logging.services.TaskContextPropagator$TaskAwareExecutionContext$$anon$1.run(TaskContextPropagator.scala:46)\\njava.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\\njava.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\\njava.lang.Thread.run(Thread.java:745)\\n\",\n  \"exceptionMessage\": \"org.apache.axis.AxisFault: WSDoAllSender: Empty username for specified action\",\n  \"externalTaskId\": \"testutf123467\",\n  \"message\": \"There was an internal server error., please contact our support with the taskId's below\",\n  \"internalTaskId\": \"e9180ee95025495a\"\n}"
             }
           ]
         },
