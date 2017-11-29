@@ -1,5 +1,4 @@
 {
-  "variables": [],
   "info": {
     "name": "Payment Module copy",
     "_postman_id": "1da6637b-6902-c63a-25cf-0f7b53419030",
@@ -2989,9 +2988,9 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"token\": \"eyJleHBZZWFyIjoyMDE2LCJtYWMiOiIxOno5VWVib2paay14cG8takZSdVFVaTN4Zzl3YTdudTJkZXhRbjZWTUx0NXMiLCJ0aW1lc3RhbXAiOiIyMDE1LTA4LTI2IDA4OjAzOjA1LjY3NCIsImRhdGEiOiJBRlhkY3Jrak81eUxoZjF3WHRjaWRSMlZyamF6IiwiY2FyZE51bVN1ZmZpeCI6IjExMTEiLCJleHBNb250aCI6MiwidmVuZG9yIjoiVmlzYSJ9\"\n}"
+              "raw": "{\n  \"token\": \"eyJleHBZZWFyIjoyMDE3LCJtYWMiOiIxOk9zSXlwdHpnRVNEUVJtanNPTWp6Y21ONUprd3VTZkxERGhvVFVjUzByTmciLCJ0aW1lc3RhbXAiOiIyMDE3LTExLTEzIDE0OjI3OjMyLjk3MiIsImRhdGEiOiJBRm9KcTlRREhGVHJWQndpTFNDbWlkZVRKOURyIiwiY2FyZE51bVN1ZmZpeCI6IjExMTEiLCJleHBNb250aCI6OSwiYmluQ29kZSI6IjQxMTExMSIsInZlbmRvciI6IlZpc2EiLCJpc3N1ZWRCeSI6ImNwcCJ9\"\n}"
             },
-            "url": "http://tokenizerdev-273062684.us-east-1.elb.amazonaws.com.:8091/decrypt-token",
+            "url": "{{tokenizer_exposed}}/decrypt-token",
             "description": ""
           },
           "response": []
