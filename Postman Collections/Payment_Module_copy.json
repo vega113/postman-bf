@@ -3607,7 +3607,7 @@
               }
             ],
             "body": {},
-            "url": "{{url}}:{{internal-port}}/config/external-providers-config",
+            "url": "https://fraud.sbx.aws.bfnet.us/config/external-providers-config",
             "description": ""
           },
           "response": [
