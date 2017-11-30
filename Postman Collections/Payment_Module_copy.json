@@ -1822,7 +1822,7 @@
         },
         {
           "_postman_id": "594ea1c8-8a88-446e-1bee-7f0f5269232b",
-          "name": "Route: Capture copy",
+          "name": "Route: Credit",
           "request": {
             "method": "POST",
             "header": [
