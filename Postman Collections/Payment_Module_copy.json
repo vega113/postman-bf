@@ -2342,6 +2342,90 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "594ea1c8-8a88-446e-1bee-7f0f5269232b",
+          "name": "Route: Capture copy",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\"orderReferenceCode\":\"orderRefCode:1505287697402\",\n\"transactionDetails\": {\n  \"uniqueId\":\"123456784\",\n  \"amount\": 69.00,\n  \"currency\":\"CAD\" ,\n  \"merchantDescriptor\" : \"BF*AutoMerch1U PPS\",\n  \"merchantDescriptorContact\" : \"0777777777\"\n}\n}"
+            },
+            "url": "{{pmconfig}}/simulator/routing/capture",
+            "description": null
+          },
+          "response": [
+            {
+              "id": "a2d1678a-849f-ae1d-f4f6-db5fa71a0818",
+              "name": "capture-reject",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n\"orderReferenceCode\":\"orderRefCode:1505287697402\",\n\"transactionDetails\": {\n  \"uniqueId\":\"123456784\",\n  \"amount\": 69.00,\n  \"currency\":\"CAD\" ,\n  \"merchantDescriptor\" : \"BF*AutoMerch1U PPS\",\n  \"merchantDescriptorContact\" : \"0777777777\"\n}\n}"
+                },
+                "url": "{{pmconfig}}/simulator/routing/capture",
+                "description": null
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "javascript",
+              "header": [
+                {
+                  "description": "",
+                  "key": "Content-Length",
+                  "name": "Content-Length",
+                  "value": "184"
+                },
+                {
+                  "description": "",
+                  "key": "Content-Type",
+                  "name": "Content-Type",
+                  "value": "application/json; charset=UTF-8"
+                },
+                {
+                  "description": "",
+                  "key": "Date",
+                  "name": "Date",
+                  "value": "Wed, 05 Nov 2014 10:31:44 GMT"
+                },
+                {
+                  "description": "",
+                  "key": "Server",
+                  "name": "Server",
+                  "value": "spray-can/1.2.2-20140526"
+                },
+                {
+                  "description": "",
+                  "key": "X-Internal-Tx-Ref",
+                  "name": "X-Internal-Tx-Ref",
+                  "value": "b094328613584aca"
+                },
+                {
+                  "description": "",
+                  "key": "X-User-Tx-Ref",
+                  "name": "X-User-Tx-Ref",
+                  "value": ""
+                }
+              ],
+              "cookie": [],
+              "responseTime": "2936",
+              "body": "{\n  \"status\": \"REJECT\",\n  \"reconciliationId\": \"1442eeac-27ee-4ba5-bb36-0cd2b78f5852\",\n  \"providerMessage\": \"The order is rejected by Decision Manager.\",\n  \"providerReasonCode\": \"481\"\n}"
+            }
+          ]
         }
       ]
     },
