@@ -2426,6 +2426,90 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "edc2de78-1ad2-5b88-dc34-a4497f2f94f2",
+          "name": "Route: Credit copy",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\"orderReferenceCode\":\"orderRefCode:1512036011362\",\n  \"transactionDetails\": {\n  \"uniqueId\": \"45678\",\n  \"currency\": \"USD\",\n  \"amount\": 69.11,\n  \"merchantDescriptor\": \"merchantDescriptor\",\n  \"merchantDescriptorContact\": \"077777777\"\n},\n\"billingAddress\":\n {\n  \"title\":\"Mr.\",\n  \"firstName\":\"Eyal\",\n  \"middleName\":\"middleEyal\",\n  \"lastName\":\"`}L\",\n  \"suffix\":\"son of dady\",\n  \"line1\":\"haneviim 54\",\n  \"line2\":\"Line2\",\n  \"city\":\"Bat Yam\",\n  \"postalCode\":\"94043\",\n  \"state\":\"IL\",\n  \"country\":\"US\",\n  \"phone\":\"123456789100\"\n },\n \"shippingAddress\":\n {\n   \"title\":\"Mr.\",\n  \"firstName\":\"John\",\n  \"middleName\":\"middleJohn\",\n  \"lastName\":\"DoeRsd\",\n  \"suffix\":\"son of Johny jon\" ,\n  \"line1\":\"1295 Charleston Road\",\n  \"line2\":\"Line2\",\n  \"city\":\"Mountain View\",\n  \"postalCode\":\"94043\",\n  \"state\":\"CA\",\n  \"country\":\"US\",\n  \"phone\":\"987654321000\"\n },\n \"shopperInfo\":\n {\n  \"email\":\"null@cybersource.com\",\n  \"hostname\":\"hackers.com\",\n  \"httpBrowserCookiesAccepted\":null,\n  \"httpBrowserType\":null,\n  \"ipNetworkAddress\":\"null@cybersource.com\",\n  \"ipAddress\":\"10.7.111.111\"\n }\n}"
+            },
+            "url": "{{pmconfig}}/simulator/routing/credit",
+            "description": null
+          },
+          "response": [
+            {
+              "id": "4af167d3-2d33-ec4d-57f0-0de3a08344d6",
+              "name": "capture-reject",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n\"orderReferenceCode\":\"orderRefCode:1512036011362\",\n  \"transactionDetails\": {\n  \"uniqueId\": \"45678\",\n  \"currency\": \"USD\",\n  \"amount\": 69.11,\n  \"merchantDescriptor\": \"merchantDescriptor\",\n  \"merchantDescriptorContact\": \"077777777\"\n},\n\"billingAddress\":\n {\n  \"title\":\"Mr.\",\n  \"firstName\":\"Eyal\",\n  \"middleName\":\"middleEyal\",\n  \"lastName\":\"`}L\",\n  \"suffix\":\"son of dady\",\n  \"line1\":\"haneviim 54\",\n  \"line2\":\"Line2\",\n  \"city\":\"Bat Yam\",\n  \"postalCode\":\"94043\",\n  \"state\":\"IL\",\n  \"country\":\"US\",\n  \"phone\":\"123456789100\"\n },\n \"shippingAddress\":\n {\n   \"title\":\"Mr.\",\n  \"firstName\":\"John\",\n  \"middleName\":\"middleJohn\",\n  \"lastName\":\"DoeRsd\",\n  \"suffix\":\"son of Johny jon\" ,\n  \"line1\":\"1295 Charleston Road\",\n  \"line2\":\"Line2\",\n  \"city\":\"Mountain View\",\n  \"postalCode\":\"94043\",\n  \"state\":\"CA\",\n  \"country\":\"US\",\n  \"phone\":\"987654321000\"\n },\n \"shopperInfo\":\n {\n  \"email\":\"null@cybersource.com\",\n  \"hostname\":\"hackers.com\",\n  \"httpBrowserCookiesAccepted\":null,\n  \"httpBrowserType\":null,\n  \"ipNetworkAddress\":\"null@cybersource.com\",\n  \"ipAddress\":\"10.7.111.111\"\n }\n}"
+                },
+                "url": "{{pmconfig}}/simulator/routing/credit",
+                "description": null
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "javascript",
+              "header": [
+                {
+                  "description": "",
+                  "key": "Content-Length",
+                  "name": "Content-Length",
+                  "value": "184"
+                },
+                {
+                  "description": "",
+                  "key": "Content-Type",
+                  "name": "Content-Type",
+                  "value": "application/json; charset=UTF-8"
+                },
+                {
+                  "description": "",
+                  "key": "Date",
+                  "name": "Date",
+                  "value": "Wed, 05 Nov 2014 10:31:44 GMT"
+                },
+                {
+                  "description": "",
+                  "key": "Server",
+                  "name": "Server",
+                  "value": "spray-can/1.2.2-20140526"
+                },
+                {
+                  "description": "",
+                  "key": "X-Internal-Tx-Ref",
+                  "name": "X-Internal-Tx-Ref",
+                  "value": "b094328613584aca"
+                },
+                {
+                  "description": "",
+                  "key": "X-User-Tx-Ref",
+                  "name": "X-User-Tx-Ref",
+                  "value": ""
+                }
+              ],
+              "cookie": [],
+              "responseTime": "2936",
+              "body": "{\n  \"status\": \"REJECT\",\n  \"reconciliationId\": \"1442eeac-27ee-4ba5-bb36-0cd2b78f5852\",\n  \"providerMessage\": \"The order is rejected by Decision Manager.\",\n  \"providerReasonCode\": \"481\"\n}"
+            }
+          ]
         }
       ]
     },
