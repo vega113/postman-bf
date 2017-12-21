@@ -3156,9 +3156,9 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"token\": \"eyJleHBZZWFyIjoyMDE3LCJtYWMiOiIxOk9zSXlwdHpnRVNEUVJtanNPTWp6Y21ONUprd3VTZkxERGhvVFVjUzByTmciLCJ0aW1lc3RhbXAiOiIyMDE3LTExLTEzIDE0OjI3OjMyLjk3MiIsImRhdGEiOiJBRm9KcTlRREhGVHJWQndpTFNDbWlkZVRKOURyIiwiY2FyZE51bVN1ZmZpeCI6IjExMTEiLCJleHBNb250aCI6OSwiYmluQ29kZSI6IjQxMTExMSIsInZlbmRvciI6IlZpc2EiLCJpc3N1ZWRCeSI6ImNwcCJ9\"\n}"
+              "raw": "{\n  \"token\": \"eyJleHBZZWFyIjoyMDIyLCJtYWMiOiIxOkhjQnpfZEdVNG1aVjcwTHA5YzB5andZRmU4cVpZUE1hZ0ttZjhrdlVzLUkiLCJ0aW1lc3RhbXAiOiIyMDE3LTA5LTE5IDA3OjA0OjM0Ljk4MiIsImRhdGEiOiJBRm5Bd1lMcVA1NjVYWExKeTdGVlFUQUxJU0JxIiwiY2FyZE51bVN1ZmZpeCI6IjExMTEiLCJleHBNb250aCI6MiwiYmluQ29kZSI6IjQxMTExMSIsInZlbmRvciI6IlZpc2EiLCJpc3N1ZWRCeSI6ImNwcCJ9\"\n}"
             },
-            "url": "{{tokenizer_exposed}}/decrypt-token",
+            "url": "{{tokenizer_internal}}/decrypt-token",
             "description": ""
           },
           "response": []
