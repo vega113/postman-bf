@@ -2484,7 +2484,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"key\":{\n  \t\n    \"paymentMethodId\": \"Yuri\",\n    \"entityId\": \"BF-USA\",\n    \"currency\": \"CAD\",\n    \"versionId\": \"2284\",\n    \"binCountry\": \"US\"\n  }\n}"
+              "raw": "{\n  \"key\":{\n  \t\n     \"paymentMethodId\": \"Visa\",\n     \"versionId\": \"2286\",\n     \"binCountry\": \"US\",\n     \"entityId\": \"BF-USA\",\n     \"currency\": \"USD\"\n  }\n}"
             },
             "url": "{{pmconfig}}/config/smartAccountInfo",
             "description": ""
