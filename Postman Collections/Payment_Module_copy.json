@@ -2970,6 +2970,26 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "38ff693e-0a4a-3ea1-89b7-7df042014580",
+          "name": "Sim-AuthWithFraud paypal",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/xml"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n   <soapenv:Header>\n      <wsse:Security xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\">\n         <wsse:UsernameToken xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" wsu:Id=\"UsernameToken-3\">\n            <wsse:Username>e4x_test_usd</wsse:Username>\n            <wsse:Password Type=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText\">Y7nRo1yNgAI6UiJ7kGNtox8CPF++5WKnqontYllCiTyxFT3rmgazMBSYeC+KclRTxiJ3LucJ9loU997mGi0h8F6fCa3I+NmhxXL3T2C2pD6cNWQEULeMCoZmSh/nnVPnj9m96Add5RUXDwFezzeUG50357qcIO29sQhxwZ+XHX0xvM9s6suIVuuMp7YIpNF/k42bHDiYlXE5uW/dV38+pnf/CQddSk77bsqISo/pEqVDh1Liy7KWBgLWPG9C0iDw2mMNvkqk5QzP85Bjhl791+hVNXLDDZBD1zVJH7ZEXlKBqhNx7VOYpW3lBmR93gK8P8mfPOzdNG6B60ZDq7WoZA==</wsse:Password>\n         </wsse:UsernameToken>\n      </wsse:Security>\n   </soapenv:Header>\n   <soapenv:Body xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\">\n <requestMessage xmlns=\"urn:schemas-cybersource-com:transaction-data-1.123\">\n  <merchantID>e4x_test_usd</merchantID>\n  <merchantReferenceCode>E4X001000812848</merchantReferenceCode>\n  <shipTo>\n    <firstName>jaysheel</firstName>\n    <middleName/>\n    <lastName>kampli</lastName>\n    <street1>1010 EASY ST</street1>\n    <street2/>\n    <city>OTTAWA</city>\n    <state>ON</state>\n    <postalCode>K1A 0B1</postalCode>\n    <country>CA</country>\n    <phoneNumber>333333333333</phoneNumber>\n    <email>jkampli@pfsweb.com</email>\n  </shipTo>\n  <item id=\"0\">\n    <unitPrice>10.39</unitPrice>\n    <quantity>10</quantity>\n    <productName>White Gold-Trimmed Premium Plastic Lunch Plates 20ct</productName>\n    <taxAmount>13.10</taxAmount>\n    <productDescription>Make your table timeless with White Gold-Trimmed Premium Plastic Lunch Plates. A classic addition to any party, these heavy-dut</productDescription>\n  </item>\n  <item id=\"1\">\n    <unitPrice>12.99</unitPrice>\n    <quantity>1</quantity>\n    <productName>CLEAR Silver-Trimmed Premium Plastic Champagne Flutes 8ct</productName>\n    <taxAmount>1.76</taxAmount>\n    <productDescription>Add a touch of silver to elegant place settings with Clear Silver-Trimmed Premium Plastic Champagne Flutes! These clear plastic</productDescription>\n  </item>\n  <item id=\"2\">\n    <unitPrice>10.00</unitPrice>\n    <quantity>1</quantity>\n    <productCode>coupon</productCode>\n    <productName>Order discount</productName>\n    <productSKU>Order discount</productSKU>\n  </item>\n  <item id=\"3\">\n    <unitPrice>12.57</unitPrice>\n    <productCode>shipping_only</productCode>\n  </item>\n  <item id=\"4\">\n    <unitPrice>13.12</unitPrice>\n    <productCode>handling_only</productCode>\n  </item>\n  <purchaseTotals>\n    <currency>CAD</currency>\n    <grandTotalAmount>147.44</grandTotalAmount>\n  </purchaseTotals>\n  <payPalEcSetService run=\"true\">\n    <paypalReturn>https://test-web.partycity.com/on/demandware.store/Sites-partycity_ca-Site/en_CA/51Checkout-PayPal?ppStatus=ok</paypalReturn>\n    <paypalCancelReturn>https://test-web.partycity.com/on/demandware.store/Sites-partycity_ca-Site/en_CA/51Checkout-PayPal?ppStatus=cancel</paypalCancelReturn>\n    <paypalAddressOverride>1</paypalAddressOverride>\n    <paypalLc>US</paypalLc>\n    <paypalHdrimg>http://s7d5.scene7.com/s7viewers/html5/BasicZoomViewer.html?closeButton=1&amp;serverUrl=http://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal%5FHTML5%5FZoom%5Fdark&amp;contenturl=http://s7d5.scene7.com/skins/&amp;asset=PartyCity/partycity%2Dlogo</paypalHdrimg>\n    <requestBillingAddress>1</requestBillingAddress>\n  </payPalEcSetService>\n</requestMessage>\n</soapenv:Body>\n</soapenv:Envelope>"
+            },
+            "url": "https://ics2wstest.ic3.com/commerce/1.x/transactionProcessor",
+            "description": null
+          },
+          "response": []
         }
       ]
     },
