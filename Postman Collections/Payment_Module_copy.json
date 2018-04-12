@@ -688,6 +688,148 @@
             "url": "{{pmsvc}}/payment-authorize-with-fraud"
           },
           "response": []
+        },
+        {
+          "_postman_id": "0d39e1ae-c00c-c6a9-e71d-8dbef7b43f87",
+          "name": "Asc - get paRes  copy",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "PaReq",
+                  "value": "eNpVkdtSwjAQhu/zFAzjdXNoAcssmamCiqKgQhkuaxptGWghbZX69CY9iOZqv81usv+/sIyUlONXKQolOTzKLAs+ZCcOR93t6WG2Ze5mtWar3KObZxKRLoeF9yKPHD6lyuI04dQiFgPcItJPKBEFSc4hEMer6RN3+i6jfcANIthLNR1z26EOYw4j9QFcpxEkwV7ym/g9LzvzRAKuGIFIiyRXJb90dG0LCAq141GeH7IhxqJ802OkhRLSEukesLlEgM8jLQoTZVrpKQ55kESz5W1azv2d73/f++Fkclr7k69g7I0AmwoEYZBLzgjtUUbsDqXDnj2kLuAqjyDYm0n4BSXEMiIaRnAwP3k10Vrg35TWUyglE9EKagmBPB3SROoabetvrFWcZ7++M+aKXNs1GNgD4hpzK6y6Y20MHdC6Pa5cwqYFN6vDzZZ19G/7PyMhqFs=",
+                  "type": "text"
+                },
+                {
+                  "key": "TermUrl",
+                  "value": "http://localhost:8080/myapp/cybersource-acs-result.jsp",
+                  "type": "text"
+                },
+                {
+                  "key": "MD",
+                  "value": "anhLTGoyOVlVVzJVdEExWVEwaDA=",
+                  "type": "text"
+                },
+                {
+                  "key": "screensubmit",
+                  "value": "true",
+                  "type": "text"
+                },
+                {
+                  "key": "xternal.field.username",
+                  "value": "test1",
+                  "type": "text"
+                },
+                {
+                  "key": "external.field.password",
+                  "value": "1234",
+                  "type": "text"
+                },
+                {
+                  "key": "external.field.password.encoding",
+                  "value": "SHA1",
+                  "type": "text"
+                },
+                {
+                  "key": "UsernamePasswordEntry",
+                  "value": "Submit",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "https://testcustomer34.cardinalcommerce.com/merchantacsfrontend/pareq.jsp",
+            "description": "Run the jetty and then take the paRes from the body response."
+          },
+          "response": [
+            {
+              "id": "d33aa026-3bad-d9f5-a283-a55097284c76",
+              "name": "payAuthEnrollRejectResponse",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "name": "Content-Type",
+                    "enabled": true
+                  },
+                  {
+                    "key": "Cache-Control",
+                    "name": "Cache-Control",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "Postman-Token",
+                    "name": "Postman-Token",
+                    "value": "d4cd9008-4dfb-4b7a-dfe0-870312e1c7d3"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{ \n  \"meansOfPayment\": {\n    \"dataType\": \"TOKEN\",\n    \"data\": {\n      \"token\": \"eyJleHBZZWFyIjoyMDE3LCJtYWMiOiIxOnJVb1pDSmloQm5PWE84c25xYkJoU2FkVUR4cjl3M0MwX1cyMFhRSDhpeWMiLCJ0aW1lc3RhbXAiOiIyMDE1LTEyLTE0IDE1OjE5OjM1Ljk2OCIsImRhdGEiOiJBRlp1M2dkaU9wNzZRVmFLR1h1V2t4VS1kZ0lqIiwiY2FyZE51bVN1ZmZpeCI6IjAwMDIiLCJleHBNb250aCI6OSwidmVuZG9yIjoiVmlzYSJ9\"\n    }\n  },\n\"orderDetails\": \n{ \n   \"orderReferenceCode\":\"e4x200wsdsassd2dssdswrwrdsasddfd\", \n   \"basket\":\n   { \"items\":\n    [ \n     { \n       \"productName\":\"item1\", \n       \"sku\":\"sku1\", \n       \"productCode\":\"2283-sku1\", \n       \"price\":12.10, \n       \"quantity\":1 \n     }, \n     {\n       \"productName\":\"item2\", \n       \"sku\":\"sku2\", \n       \"productCode\":\"2283-sku2\", \n       \"price\":56.90, \n       \"quantity\":1 \n     } \n    ], \n    \"totalAmount\":69.00, \n    \"currency\":\"USD\" }, \n   \"billingAddress\":\n   { \n    \"title\":\"Mr.\", \n    \"firstName\":\"Eyal\", \n    \"middleName\":\"middleEyal\", \n    \"lastName\":\"TIMEOUT\", \n    \"suffix\":\"son of dady\", \n    \"line1\":\"haneviim 54\", \n    \"line2\":\"Line2\", \n    \"city\":\"Bat Yam\", \n    \"postalCode\":\"94043\", \n    \"state\":\"IL\", \n    \"country\":\"US\", \n    \"phone\":\"123456789100\" \n   }, \n   \"shippingAddress\":\n   { \n     \"title\":\"Mr.\", \n    \"firstName\":\"John\", \n    \"middleName\":\"middleJohn\", \n    \"lastName\":\"DoeRsd\", \n    \"suffix\":\"son of Johny jon\" , \n    \"line1\":\"1295 Charleston Road\", \n    \"line2\":\"Line2\", \n    \"city\":\"Mountain View\", \n    \"postalCode\":\"94043\", \n    \"state\":\"CA\", \n    \"country\":\"US\", \n    \"phone\":\"987654321000\" \n   }, \n   \"shopperInfo\":\n   { \n    \"email\":\"null@cybersource.com\", \n    \"hostname\":\"hackers.com\", \n    \"httpBrowserCookiesAccepted\":null, \n    \"httpBrowserType\":null, \n    \"ipNetworkAddress\":\"null@cybersource.com\", \n    \"ipAddress\":\"10.7.111.111\" \n   } \n}, \n\"customData\":\n{ \n  \"merchant\": \"BF*AutoMerch1 PPS_\",\n  \"billingAlternativePhoneNum\": \"5555-6666_\",\n  \"shippingPrimaryPhoneNum\": \"5555-6666_\",\n  \"shippingAlternativePhoneNum\": \"5555-6666_\",\n  \"shippingEmailAddress\": \"john.h.smith@mail.com_\",\n  \"billingEmailAddress\": \"john.h.smith@mail.com_\",\n  \"e4xShippingMethod\": \"Express_\",\n  \"totalOrderUs\": 400,\n  \"merchandiseUS\":500, \n  \"orderTotalLocalCurrency\": \"stam1\",\n  \"promoCodeUsed\": \"stam2\",\n  \"paymentType\": \"stam3\",\n  \"processorAccountId\": \"stam4\",\n  \"authResult\": \"stam5\",\n  \"refusalReason\": \"stam6\",\n  \"authResponseDescription\": \"stam7\",\n  \"processorReferenceNumber\": \"stam8\",\n  \"field18\": \"stam9\",\n  \"field19\": \"stam10\"\n\n} ,\n\"entityDetails\": {\n    \"entityId\": \"BF-USA\",\n    \"baseCurrency\": \"USD\"\n}, \n\"servicesToRun\":[\n    {\n        \"name\" : \"payerAuthEnrollService\",\n        \"params\" : []\n    }\n ]\n} \n"
+                },
+                "url": "http://localhost:8091/payment-authorize-with-fraud"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "javascript",
+              "header": [
+                {
+                  "name": "Content-Length",
+                  "key": "Content-Length",
+                  "value": "2346",
+                  "description": ""
+                },
+                {
+                  "name": "Content-Type",
+                  "key": "Content-Type",
+                  "value": "application/json; charset=UTF-8",
+                  "description": ""
+                },
+                {
+                  "name": "Date",
+                  "key": "Date",
+                  "value": "Thu, 17 Dec 2015 11:52:56 GMT",
+                  "description": ""
+                },
+                {
+                  "name": "Server",
+                  "key": "Server",
+                  "value": "spray-can/1.3.2",
+                  "description": ""
+                },
+                {
+                  "name": "X-Internal-Tx-Ref",
+                  "key": "X-Internal-Tx-Ref",
+                  "value": "f9a916e84ea9437a",
+                  "description": ""
+                },
+                {
+                  "name": "X-User-Tx-Ref",
+                  "key": "X-User-Tx-Ref",
+                  "value": "",
+                  "description": ""
+                },
+                {
+                  "name": "machine-name",
+                  "key": "machine-name",
+                  "value": "TLV-YURIZ-LT",
+                  "description": ""
+                }
+              ],
+              "cookie": [],
+              "responseTime": "5072",
+              "body": "{\n  \"payerAuthEnrollReply\": {\n    \"acsURL\": \"https://testcustomer34.cardinalcommerce.com/merchantacsfrontend/pareq.jsp?vaa=b&gold=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n    \"paReq\": \"eNpVkd1uwjAMhe/zFGjaddOkpV2RiQRjaExi/A0muCvBg8JoS9pOsKdfUtqx5cqfYyc+x/C2U4i9GcpCoYAhZlm4xUa0ad+9n5663jRc+vxlPhmtt99rbt8JGHemeBLwhSqLklgwy7Y40BqJfkLJXRjnAkJ56g5ehesFnHlAKyRwRDXoCcdlLucut68H6DVNIA6PKPrRR35pjGIEWjIBmRRxri7iwdW1NRAo1KfY5XmatSiVl7UeIymUREsmR6DmkgC9jTQuTJRppedoIxZOvz/Zr2bLxcEZHtLFfB5EKyeNhvtOG6ipILAJcxTcZk3Gmd9grNXkraYDtMwTCI9mEnHvBZbRUCGB1HzUuZIXmKu/Ga2mUApjWcupiQCe0yRGXaNN/Y21htvkj8/GWplrs3zf8e3AWFti2R1pW1iZrUA3mxZaLY5WO9bRv93/AIwXp40=\",\n    \"xid\": \"V3FFQjZSYVk3MkpVUU9iZ3piMjA=\"\n  },\n  \"providerReasonCode\": \"475\",\n  \"requestToken\": \"AhjzbwSR6EYdrx3axOfSNgKfvGoQ/CaQN16Kc67ekmVdHpGWvgDAIQpa\",\n  \"status\": \"REJECT\",\n  \"requestId\": \"4503531747435000001513\",\n  \"providerMessage\": \"\"\n}"
+            }
+          ]
         }
       ]
     },
