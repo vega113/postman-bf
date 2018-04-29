@@ -3181,7 +3181,7 @@
               }
             ],
             "body": {},
-            "url": "{{url}}:{{simport}}/Query/ACCEPT"
+            "url": "{{url}}/Query/ACCEPT"
           },
           "response": []
         },
