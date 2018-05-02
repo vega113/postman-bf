@@ -3613,20 +3613,19 @@
               "raw": " {\n    \"vendor\": \"Visa\",\n    \"cardNumber\": \"4111111111111111\",\n    \"expirationMonth\": 2,\n    \"expirationYear\": 2018,\n    \"cvn\": \"123\"\n}"
             },
             "url": {
-              "raw": "http://localhost:8090/payment-tokens?ticket=eyJhbGciOiJFUzI1NiJ9.eyJleHAiOjE1MjQ0OTAyNjAsImp0aSI6Ik5VeGFVQnZzMFp3RlV4bU9qN0wyUWciLCJpYXQiOjE1MjQ0ODk2NjAsIm1hbCI6Ijk5OTk5OSJ9.lIDVMe8dYb5kg7VTcT28L-W5OxpT_OytkOz4j1leGPZapLmikWRBX722H4sy5ogdiD1ucfCaulB2TLPfl8P2eg",
+              "raw": "http://localhost:9090/payment-tokens?ticket=eyJhbGciOiJFUzI1NiJ9.eyJleHAiOjE1MjQ0OTAyNjAsImp0aSI6Ik5VeGFVQnZzMFp3RlV4bU9qN0wyUWciLCJpYXQiOjE1MjQ0ODk2NjAsIm1hbCI6Ijk5OTk5OSJ9.lIDVMe8dYb5kg7VTcT28L-W5OxpT_OytkOz4j1leGPZapLmikWRBX722H4sy5ogdiD1ucfCaulB2TLPfl8P2eg",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "8090",
+              "port": "9090",
               "path": [
                 "payment-tokens"
               ],
               "query": [
                 {
                   "key": "ticket",
-                  "value": "eyJhbGciOiJFUzI1NiJ9.eyJleHAiOjE1MjQ0OTAyNjAsImp0aSI6Ik5VeGFVQnZzMFp3RlV4bU9qN0wyUWciLCJpYXQiOjE1MjQ0ODk2NjAsIm1hbCI6Ijk5OTk5OSJ9.lIDVMe8dYb5kg7VTcT28L-W5OxpT_OytkOz4j1leGPZapLmikWRBX722H4sy5ogdiD1ucfCaulB2TLPfl8P2eg",
-                  "equals": true
+                  "value": "eyJhbGciOiJFUzI1NiJ9.eyJleHAiOjE1MjQ0OTAyNjAsImp0aSI6Ik5VeGFVQnZzMFp3RlV4bU9qN0wyUWciLCJpYXQiOjE1MjQ0ODk2NjAsIm1hbCI6Ijk5OTk5OSJ9.lIDVMe8dYb5kg7VTcT28L-W5OxpT_OytkOz4j1leGPZapLmikWRBX722H4sy5ogdiD1ucfCaulB2TLPfl8P2eg"
                 }
               ]
             }
